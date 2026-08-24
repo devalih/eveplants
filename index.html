@@ -3,132 +3,197 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <meta name="description" content="Thoughtful plant care for healthier, happier homes. Monthly visits, practical advice, and plant recommendations from an ecology-minded plant lover." />
-    <title>Eve Plants · Home plant care</title>
+    <meta name="theme-color" content="#173f32" />
+    <meta name="description" content="Eve Plants offers thoughtful monthly home plant care, ecology-led advice, and plant recommendations for healthier indoor and outdoor plants." />
+    <meta property="og:title" content="Eve Plants · Home plant care" />
+    <meta property="og:description" content="Personal plant care, grounded in ecology." />
+    <meta property="og:image" content="https://eveplants.com/assets/images/eve-hero-poster.webp" />
+    <meta property="og:type" content="website" />
+    <link rel="canonical" href="https://eveplants.com/" />
+    <link rel="icon" href="assets/logo-mark.svg" type="image/svg+xml" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700&family=Playfair+Display:wght@600;700&display=swap" rel="stylesheet" />
+    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600&family=Newsreader:opsz,wght@6..72,400;6..72,500&display=swap" rel="stylesheet" />
     <link rel="stylesheet" href="styles.css" />
+    <title>Eve Plants · Home plant care</title>
   </head>
   <body>
-    <header class="site-header">
+    <a class="skip-link" href="#main">Skip to content</a>
+
+    <header class="site-header" data-header>
       <a class="brand" href="#top" aria-label="Eve Plants home">
-        <span class="brand-mark" aria-hidden="true">✦</span>
-        <span>Eve Plants<span class="brand-accent">.</span></span>
+        <img src="assets/logo-mark.svg" alt="" width="42" height="42" />
+        <span class="brand-name">Eve Plants</span>
       </a>
-      <nav aria-label="Main navigation">
+      <button class="menu-toggle" type="button" aria-expanded="false" aria-controls="site-nav" data-menu-toggle>
+        <span></span><span></span><span class="sr-only">Open menu</span>
+      </button>
+      <nav class="site-nav" id="site-nav" aria-label="Main navigation" data-nav>
         <a href="#services">Services</a>
+        <a href="#approach">Approach</a>
         <a href="#about">About</a>
-        <a class="nav-cta" href="#contact">Get in touch</a>
+        <a class="nav-contact" href="#contact">Let’s talk plants <span>↗</span></a>
       </nav>
     </header>
 
-    <main id="top">
-      <section class="hero page-width">
-        <div class="hero-copy">
-          <p class="eyebrow">Eve Plants · Rooted in ecology</p>
-          <h1>Good plants make a house feel <em>alive.</em></h1>
-          <p class="hero-text">Personal, practical support for the plants you already love—and thoughtful guidance for the ones you’re ready to bring home.</p>
-          <div class="hero-actions">
-            <a class="button button-primary" href="#contact">Talk about your plants <span aria-hidden="true">↗</span></a>
-            <a class="text-link" href="#services">Explore services <span aria-hidden="true">↓</span></a>
+    <main id="main">
+      <section class="hero" id="top">
+        <video class="hero-media" autoplay muted loop playsinline poster="assets/images/eve-hero-poster.webp" aria-hidden="true">
+          <source src="assets/video/eve-hero-mobile.mp4" media="(max-width: 700px)" type="video/mp4" />
+          <source src="assets/video/eve-hero-desktop.mp4" type="video/mp4" />
+        </video>
+        <div class="hero-wash"></div>
+        <div class="hero-content shell">
+          <div class="hero-copy reveal">
+            <p class="overline light">Personal home plant care</p>
+            <h1>Your plants,<br /><em>understood.</em></h1>
+            <p class="hero-intro">Monthly care, honest advice, and thoughtful recommendations—grounded in ecology and shaped around your home.</p>
+            <div class="hero-actions">
+              <a class="button button-ivory" href="#contact">Book a first visit <span>↗</span></a>
+              <a class="quiet-link" href="#services">See how it works <span>↓</span></a>
+            </div>
+          </div>
+          <div class="hero-foot">
+            <p><span>01</span> Monthly home visits</p>
+            <p><span>02</span> Indoor + outdoor plants</p>
+            <p><span>03</span> Ecology-led advice</p>
           </div>
         </div>
-        <div class="hero-art" aria-label="Time-lapse of a plant growing">
-          <video class="hero-video" autoplay muted playsinline poster="assets/images/plant-leaves.jpg">
-            <source src="assets/video/bean-seed.mp4" type="video/mp4" />
+        <div class="hero-scroll" aria-hidden="true">Scroll <span></span></div>
+      </section>
+
+      <section class="intro section shell reveal" aria-labelledby="intro-title">
+        <div class="section-label"><span>What Eve Plants is</span><span>01</span></div>
+        <div class="intro-grid">
+          <h2 id="intro-title">A greener home begins with <em>paying attention.</em></h2>
+          <div class="intro-body">
+            <p>Plants rarely need more products or more complicated routines. They need someone to notice the light, the soil, the season—and the quiet signs that something is changing.</p>
+            <p>Eve Plants brings that attention into your home, so your plants can thrive and you can feel confident caring for them.</p>
+          </div>
+        </div>
+      </section>
+
+      <section class="services section" id="services" aria-labelledby="services-title">
+        <div class="shell">
+          <div class="section-label reveal"><span>Ways to work together</span><span>02</span></div>
+          <div class="services-heading reveal">
+            <h2 id="services-title">Care that meets you<br />where you are.</h2>
+            <p>For a single struggling plant, a growing collection, or a whole home that needs a calmer care rhythm.</p>
+          </div>
+          <div class="service-list">
+            <article class="service-item reveal">
+              <span class="service-number">01</span>
+              <div class="service-icon" aria-hidden="true"><span class="orbit"></span><span class="dot"></span></div>
+              <div><h3>Monthly plant care</h3><p>A regular home visit to check plant health, water thoughtfully, prune, clean leaves, spot pests early, and adjust care as the seasons change.</p></div>
+              <a href="#contact" aria-label="Ask about monthly plant care">↗</a>
+            </article>
+            <article class="service-item reveal">
+              <span class="service-number">02</span>
+              <div class="service-icon leaf-icon" aria-hidden="true"></div>
+              <div><h3>Plant health visit</h3><p>A focused session for plants that look unhappy. We identify likely causes and leave you with clear, realistic next steps.</p></div>
+              <a href="#contact" aria-label="Ask about a plant health visit">↗</a>
+            </article>
+            <article class="service-item reveal">
+              <span class="service-number">03</span>
+              <div class="service-icon sun-icon" aria-hidden="true"></div>
+              <div><h3>Plant selection</h3><p>Recommendations based on your actual light, space, pets, habits, and experience—not just what looks good in the shop.</p></div>
+              <a href="#contact" aria-label="Ask about plant selection">↗</a>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section class="care-story section shell" id="approach" aria-labelledby="care-title">
+        <div class="care-visual reveal">
+          <video autoplay muted loop playsinline poster="assets/images/eve-care-portrait.webp" aria-label="Plant care at home">
+            <source src="assets/video/eve-care.mp4" type="video/mp4" />
           </video>
-          <div class="hero-shade"></div>
-          <div class="hero-video-label"><span class="live-dot"></span> growth in motion</div>
-          <div class="hero-caption">care that grows with you</div>
+          <div class="video-note"><span></span> Care in practice</div>
+        </div>
+        <div class="care-copy reveal">
+          <p class="overline">The monthly ritual</p>
+          <h2 id="care-title">Observe.<br />Adjust.<br /><em>Let it grow.</em></h2>
+          <p>Each visit starts with observation. We look at new growth, soil moisture, leaf condition, light, airflow, and the wider environment. Then we make only the changes your plants actually need.</p>
+          <ul class="care-list">
+            <li><span>01</span> Health check and seasonal care</li>
+            <li><span>02</span> Watering, pruning, and leaf care</li>
+            <li><span>03</span> Practical notes for the weeks ahead</li>
+          </ul>
+          <a class="text-arrow" href="#contact">Ask about monthly visits <span>↗</span></a>
         </div>
       </section>
 
-      <section class="intro-band">
-        <div class="page-width intro-grid">
-          <p class="section-kicker">A little more green</p>
-          <p class="intro-statement">Plant care doesn’t need to be complicated. With the right light, rhythm, and a little observation, your home can become a place where plants—and people—thrive.</p>
+      <section class="quote-band" aria-label="Eve Plants philosophy">
+        <div class="quote-leaf" aria-hidden="true"></div>
+        <div class="shell reveal">
+          <p>“Good plant care is less about perfect rules and more about understanding the living system in front of you.”</p>
+          <span>Eve Plants philosophy</span>
         </div>
       </section>
 
-      <section class="section page-width" id="services">
-        <div class="section-heading">
-          <div>
-            <p class="section-kicker">What I can help with</p>
-            <h2>Small steps.<br /><em>Healthier plants.</em></h2>
-          </div>
-          <p class="section-note">Every home is different. Visits are shaped around your space, your plants, and the kind of support that feels useful to you.</p>
-        </div>
-        <div class="service-grid">
-          <article class="service-card featured-card">
-            <span class="card-number">01</span>
-            <div class="card-icon">◒</div>
-            <h3>Monthly plant visits</h3>
-            <p>A calm, hands-on check-in for your indoor and outdoor plants. We’ll look closely, catch small issues early, and keep a simple care rhythm going.</p>
-            <a href="#contact" class="card-link">Plan a visit <span aria-hidden="true">↗</span></a>
-          </article>
-          <article class="service-card">
-            <span class="card-number">02</span>
-            <div class="card-icon">✳</div>
-            <h3>Plant advice</h3>
-            <p>Clear next steps for watering, light, pruning, repotting, pests, and the everyday details that help plants settle in.</p>
-            <a href="#contact" class="card-link">Ask a question <span aria-hidden="true">↗</span></a>
-          </article>
-          <article class="service-card">
-            <span class="card-number">03</span>
-            <div class="card-icon">⌁</div>
-            <h3>Choose the right plants</h3>
-            <p>Recommendations that fit your light, space, lifestyle, and ambitions—so the next plant is a good match from day one.</p>
-            <a href="#contact" class="card-link">Find your plant <span aria-hidden="true">↗</span></a>
-          </article>
-        </div>
-      </section>
-
-      <section class="growth-strip page-width" aria-label="Plant growth story">
-        <div class="growth-image growth-seed"><img src="assets/images/plant-seed.jpg" alt="A young bean plant beginning to grow" loading="lazy" /></div>
-        <div class="growth-copy"><p class="section-kicker">Watch closely</p><h2>Every stage has a story.</h2><p>The best plant care starts with noticing: new roots, a change in light, a leaf asking for help. Eve Plants helps you read those small signals.</p></div>
-        <div class="growth-image growth-leaves"><img src="assets/images/plant-leaves.jpg" alt="A mature bean plant with an extensive root system" loading="lazy" /></div>
-      </section>
-
-      <section class="about-section" id="about">
-        <div class="page-width about-grid">
-          <div class="about-visual"><span>listen</span><span>observe</span><span>grow</span></div>
-          <div class="about-copy">
-            <p class="section-kicker">The person behind the plants</p>
-            <h2>Care with a wider view.</h2>
-            <p>With a background in ecology and ecological services, I bring a patient, observant approach to every home visit. Plants are living systems—not decorations to be managed by a checklist.</p>
-            <p>My aim is to help you understand what your plants are telling you, build confidence in caring for them, and create a greener home that feels good to live in.</p>
-            <div class="signature">Your local plant guide <span aria-hidden="true">✦</span></div>
+      <section class="about section shell" id="about" aria-labelledby="about-title">
+        <div class="about-copy reveal">
+          <div class="section-label"><span>Meet Eve Plants</span><span>03</span></div>
+          <h2 id="about-title">Ecology,<br />brought <em>home.</em></h2>
+          <p class="about-lead">Eve Plants combines a background in ecology and ecological services with years of practical experience caring for indoor and outdoor plants.</p>
+          <p>The approach is warm, observant, and never judgmental. Whether you are new to plants or already live in an urban jungle, the goal is the same: help you understand what is growing in your home and care for it with confidence.</p>
+          <div class="credentials">
+            <div><strong>Ecology</strong><span>systems thinking</span></div>
+            <div><strong>Experience</strong><span>hands-on care</span></div>
+            <div><strong>At home</strong><span>advice that fits</span></div>
           </div>
         </div>
+        <figure class="about-image reveal">
+          <img src="assets/images/eve-care-portrait.webp" alt="A plant-care specialist tending houseplants with a watering can" loading="lazy" />
+          <figcaption>Thoughtful care for real homes.</figcaption>
+        </figure>
       </section>
 
-      <section class="contact-section page-width" id="contact">
-        <div class="contact-card">
-          <div>
-            <p class="section-kicker">Let’s talk plants</p>
-            <h2>Have a leafy question?</h2>
-            <p>Send a message on WhatsApp to share what’s growing, what’s struggling, or what you’re thinking of bringing home.</p>
+      <section class="process section" aria-labelledby="process-title">
+        <div class="shell">
+          <div class="process-top reveal">
+            <div><p class="overline">Simple from the start</p><h2 id="process-title">How it works.</h2></div>
+            <p>No forms, no complicated plans. Start with a WhatsApp message and a few photos of your space and plants.</p>
           </div>
-          <!-- Replace 0000000000 with the WhatsApp number, including country code. -->
-          <a class="button button-light" href="https://wa.me/0000000000" target="_blank" rel="noreferrer">Message on WhatsApp <span aria-hidden="true">↗</span></a>
+          <ol class="process-steps">
+            <li class="reveal"><span>01</span><h3>Say hello</h3><p>Share what you need help with and send a few plant photos on WhatsApp.</p></li>
+            <li class="reveal"><span>02</span><h3>Plan a visit</h3><p>We agree on the right kind of visit and choose a time that works for your home.</p></li>
+            <li class="reveal"><span>03</span><h3>Grow with confidence</h3><p>You get hands-on care, clear advice, and a practical rhythm for what comes next.</p></li>
+          </ol>
+        </div>
+      </section>
+
+      <section class="faq section shell" aria-labelledby="faq-title">
+        <div class="faq-heading reveal"><p class="overline">A few useful answers</p><h2 id="faq-title">Before we visit.</h2></div>
+        <div class="faq-list">
+          <details class="reveal"><summary>Do I need to know what plants I have?<span>+</span></summary><p>Not at all. Identifying plants and understanding their needs is part of the visit.</p></details>
+          <details class="reveal"><summary>Can you help with outdoor plants too?<span>+</span></summary><p>Yes. Eve Plants supports both indoor and outdoor plants, with advice shaped around your local conditions and space.</p></details>
+          <details class="reveal"><summary>What happens during a monthly visit?<span>+</span></summary><p>Plants are checked individually, essential care is carried out, and you receive simple guidance for anything to watch between visits.</p></details>
+          <details class="reveal"><summary>Can you help me choose new plants?<span>+</span></summary><p>Yes. Recommendations consider light, available space, pets, care habits, and the look you want to create.</p></details>
+        </div>
+      </section>
+
+      <section class="contact section" id="contact" aria-labelledby="contact-title">
+        <div class="contact-bg" aria-hidden="true"><img src="assets/images/eve-leaf-detail.webp" alt="" /></div>
+        <div class="contact-inner shell reveal">
+          <p class="overline light">Ready when you are</p>
+          <h2 id="contact-title">Let’s help your<br />plants feel <em>at home.</em></h2>
+          <p>Send a photo, ask a question, or tell us what your plants need. The conversation starts on WhatsApp.</p>
+          <!-- Replace 0000000000 with the full WhatsApp number including country code, without + or spaces. -->
+          <a class="button button-ivory button-large" href="https://wa.me/0000000000?text=Hi%20Eve%20Plants%2C%20I%27d%20like%20some%20help%20with%20my%20plants." target="_blank" rel="noreferrer">Message Eve Plants <span>↗</span></a>
         </div>
       </section>
     </main>
 
-    <footer class="site-footer page-width">
-      <span>© 2026 Eve Plants</span>
-      <span>Made for homes with room to grow.</span>
+    <footer class="site-footer">
+      <div class="shell footer-grid">
+        <div class="footer-brand"><img src="assets/logo-mark.svg" alt="" width="46" height="46" /><span>Eve Plants</span></div>
+        <p>Personal plant care.<br />Grounded in ecology.</p>
+        <div class="footer-links"><a href="#services">Services</a><a href="#about">About</a><a href="#contact">WhatsApp</a></div>
+        <div class="footer-bottom"><span>© 2026 Eve Plants</span><span>Indoor + outdoor plant care</span><a href="#top">Back to top ↑</a></div>
+      </div>
     </footer>
-    <script>
-      const heroVideo = document.querySelector('.hero-video');
-      const cuts = ['assets/video/bean-seed.mp4', 'assets/video/bean-sprout.mp4', 'assets/video/bean-leaves.mp4'];
-      let cutIndex = 0;
-      heroVideo.addEventListener('ended', () => {
-        cutIndex = (cutIndex + 1) % cuts.length;
-        heroVideo.src = cuts[cutIndex];
-        heroVideo.play().catch(() => {});
-      });
-    </script>
+
+    <script src="script.js"></script>
   </body>
 </html>

@@ -1,16 +1,29 @@
 # Eve Plants
 
-A dependency-free static site template for GitHub Pages.
+Static multi-page brand site for Eve Plants, a personal home plant-care service grounded in ecology.
 
-The hero uses short, muted cuts from the provided [Bean Time-Lapse - 25 days | Soil cross section](https://youtu.be/w77zPAtVTuI) video. Confirm that you have permission to republish the video on the business site before going live.
+## Site structure
 
-## Customize
+- `/` — service landing page
+- `/blog/` — journal and future blog-post index
+- `/plants/` — plant-care wiki index
+- `/store/` — upcoming online shop
+- `/templates/` — copyable HTML templates for future blog posts and plant guides
 
-- Replace the placeholder business copy with the final service area and owner's name.
-- Update the copy in `index.html` with the service area and owner's name.
-- Replace `0000000000` in the WhatsApp link with the full number, including country code, without `+` or spaces.
-- Adjust the colors and typography in `styles.css` if desired.
+## Before launch
 
-## Publish with GitHub Pages
+- Replace `0000000000` in the HTML files with the full WhatsApp number, including country code and without `+` or spaces.
+- Confirm the service area and add it to the copy, structured data, and page metadata.
+- Confirm permission and attribution requirements for the selected footage.
+- Review the final business wording with the owner.
 
-In the repository on GitHub, open **Settings → Pages**, choose **Deploy from a branch**, select `main` and `/ (root)`, then save. GitHub Pages will publish `index.html` as the site entry point.
+## Adding content
+
+Copy `templates/blog-post.html` to `blog/your-post-slug.html` for a new article. Copy `templates/plant-guide.html` to `plants/plant-name.html` for a new care guide. Update each page's title, description, canonical URL, Open Graph metadata, structured data, and links. Then add the URL to `sitemap.xml` and a card to the relevant index page.
+
+## Visual sources
+
+- Hero time-lapse: [Monstera leaf unfurling by Super Lunar on Pexels](https://www.pexels.com/video/a-time-lapse-of-a-plant-6175654/)
+- Plant-care footage: [Woman taking care of houseplants by Los Muertos Crew on Pexels](https://www.pexels.com/video/woman-taking-care-of-her-houseplants-7616923/)
+
+The logo, layout, brand palette, and written content are original to Eve Plants.

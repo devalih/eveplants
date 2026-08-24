@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" role="img" aria-labelledby="title">
+  <title id="title">Eve Plants monogram</title>
+  <circle cx="32" cy="32" r="30" fill="#173f32"/>
+  <path d="M21 18v28h20M22 32h14M22 19h18" fill="none" stroke="#f4f0e7" stroke-width="3.2" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M43 43c-8-1-12-6-11-14 8 1 13 6 11 14Z" fill="#c8dc8a"/>
+  <path d="M34 31c3 3 6 6 8 10" fill="none" stroke="#173f32" stroke-width="1.6" stroke-linecap="round"/>
+</svg>
