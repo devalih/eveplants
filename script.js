@@ -21,6 +21,20 @@ if (prefersReducedMotion.matches) {
   document.querySelectorAll('video').forEach((video) => video.pause());
 }
 
+const viewportVideos = document.querySelectorAll('[data-viewport-video]');
+if ('IntersectionObserver' in window && !prefersReducedMotion.matches) {
+  const videoObserver = new IntersectionObserver((entries) => {
+    entries.forEach((entry) => {
+      if (entry.isIntersecting) {
+        entry.target.play().catch(() => {});
+      } else {
+        entry.target.pause();
+      }
+    });
+  }, { rootMargin: '220px 0px' });
+  viewportVideos.forEach((video) => videoObserver.observe(video));
+}
+
 const revealItems = document.querySelectorAll('.reveal');
 if ('IntersectionObserver' in window && !prefersReducedMotion.matches) {
   const observer = new IntersectionObserver((entries) => {

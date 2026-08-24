@@ -54,6 +54,8 @@ h1 em, h2 em { color: var(--lime); font-style: italic; font-weight: 400; }
 .hero-actions { display: flex; align-items: center; gap: 28px; flex-wrap: wrap; }
 .button { display: inline-flex; align-items: center; justify-content: space-between; gap: 40px; min-width: 210px; padding: 15px 18px 15px 22px; border-radius: 999px; font-size: .82rem; font-weight: 600; transition: transform .2s ease, background .2s ease; }
 .button:hover { transform: translateY(-2px); }
+.button-disabled { cursor: not-allowed; opacity: .82; }
+.button-disabled:hover { transform: none; }
 .button-ivory { color: var(--forest); background: var(--ivory); }
 .button-ivory:hover { background: white; }
 .quiet-link { display: inline-flex; gap: 20px; color: rgba(255,255,255,.76); font-size: .8rem; }

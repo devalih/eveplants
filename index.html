@@ -4,9 +4,9 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <meta name="theme-color" content="#173f32" />
-    <meta name="description" content="Eve Plants offers thoughtful monthly home plant care, ecology-led advice, and plant recommendations for healthier indoor and outdoor plants." />
-    <meta property="og:title" content="Eve Plants · Home plant care" />
-    <meta property="og:description" content="Personal plant care, grounded in ecology." />
+    <meta name="description" content="Eve Plants offers ecology-led home plant care in the Netherlands: monthly visits, plant health advice and thoughtful plant recommendations." />
+    <meta property="og:title" content="Home plant care in the Netherlands · Eve Plants" />
+    <meta property="og:description" content="Personal home plant care in the Netherlands, grounded in ecology." />
     <meta property="og:image" content="https://eveplants.com/assets/images/eve-hero-poster.webp" />
     <meta property="og:type" content="website" />
     <meta property="og:url" content="https://eveplants.com/" />
@@ -21,7 +21,7 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600&family=Newsreader:opsz,wght@6..72,400;6..72,500&display=swap" rel="stylesheet" />
     <link rel="stylesheet" href="styles.css" />
-    <title>Eve Plants · Home plant care</title>
+    <title>Home plant care in the Netherlands · Eve Plants</title>
   </head>
   <body>
     <a class="skip-link" href="#main">Skip to content</a>
@@ -45,7 +45,7 @@
 
     <main id="main">
       <section class="hero" id="top">
-        <video class="hero-media" autoplay muted loop playsinline poster="assets/images/eve-hero-poster.webp" aria-hidden="true">
+        <video class="hero-media" autoplay muted loop playsinline preload="metadata" poster="assets/images/eve-hero-poster.webp" aria-hidden="true">
           <source src="assets/video/eve-hero-mobile.mp4" media="(max-width: 700px)" type="video/mp4" />
           <source src="assets/video/eve-hero-desktop.mp4" type="video/mp4" />
         </video>
@@ -112,7 +112,7 @@
 
       <section class="care-story section shell" id="approach" aria-labelledby="care-title">
         <div class="care-visual reveal">
-          <video autoplay muted loop playsinline poster="assets/images/eve-care-portrait.webp" aria-label="Plant care at home">
+          <video muted loop playsinline preload="none" poster="assets/images/eve-care-portrait.webp" aria-label="Plant care at home" data-viewport-video>
             <source src="assets/video/eve-care.mp4" type="video/mp4" />
           </video>
           <div class="video-note"><span></span> Care in practice</div>
@@ -151,7 +151,7 @@
           </div>
         </div>
         <figure class="about-image reveal">
-          <img src="assets/images/eve-care-portrait.webp" alt="A plant-care specialist tending houseplants with a watering can" loading="lazy" />
+          <img src="assets/images/eve-care-portrait.webp" alt="A plant-care specialist tending houseplants with a watering can" width="800" height="1000" decoding="async" />
           <figcaption>Thoughtful care for real homes.</figcaption>
         </figure>
       </section>
@@ -181,13 +181,13 @@
       </section>
 
       <section class="contact section" id="contact" aria-labelledby="contact-title">
-        <div class="contact-bg" aria-hidden="true"><img src="assets/images/eve-leaf-detail.webp" alt="" /></div>
+        <div class="contact-bg" aria-hidden="true"><img src="assets/images/eve-leaf-detail.webp" alt="" width="1200" height="900" loading="lazy" decoding="async" /></div>
         <div class="contact-inner shell reveal">
           <p class="overline light">Ready when you are</p>
           <h2 id="contact-title">Let’s help your<br />plants feel <em>at home.</em></h2>
           <p>Send a photo, ask a question, or tell us what your plants need. The conversation starts on WhatsApp.</p>
-          <!-- Replace 0000000000 with the full WhatsApp number including country code, without + or spaces. -->
-          <a class="button button-ivory button-large" href="https://wa.me/0000000000?text=Hi%20Eve%20Plants%2C%20I%27d%20like%20some%20help%20with%20my%20plants." target="_blank" rel="noreferrer">Message Eve Plants <span>↗</span></a>
+          <!-- Replace this disabled span with the WhatsApp link documented in README.md when the number is ready. -->
+          <span class="button button-ivory button-large button-disabled" aria-disabled="true">WhatsApp opens soon <span>⌁</span></span>
         </div>
       </section>
     </main>
@@ -212,10 +212,19 @@
             "url": "https://eveplants.com/",
             "logo": "https://eveplants.com/assets/logo-mark.svg",
             "image": "https://eveplants.com/assets/images/eve-hero-poster.webp",
-            "description": "Personal home plant care, monthly visits, plant-health advice and plant recommendations grounded in ecology.",
+            "description": "Ecology-led home plant care in the Netherlands, including monthly visits, plant-health advice and plant recommendations.",
             "areaServed": { "@type": "Country", "name": "Netherlands" },
+            "serviceType": ["Monthly home plant care", "Plant health visits", "Plant selection advice"],
             "knowsAbout": ["houseplant care", "indoor plants", "outdoor plants", "plant health", "ecology"],
-            "sameAs": []
+            "hasOfferCatalog": {
+              "@type": "OfferCatalog",
+              "name": "Home plant services",
+              "itemListElement": [
+                { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Monthly plant care" } },
+                { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Plant health visit" } },
+                { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Plant selection" } }
+              ]
+            }
           },
           {
             "@type": "WebSite",
