@@ -30,6 +30,8 @@ button { font: inherit; }
 .brand { display: inline-flex; align-items: center; gap: 13px; }
 .brand img { width: 42px; filter: brightness(0) invert(1); }
 .brand img.brand-wordmark { width: 178px; height: 60px; object-fit: contain; }
+.brand:has(.brand-wordmark) .brand-name,
+.footer-brand:has(.brand-wordmark) > span { display: none; }
 .brand-name { font-family: var(--serif); font-size: 1.45rem; letter-spacing: -.025em; }
 .site-nav { display: flex; align-items: center; gap: 34px; font-size: .78rem; font-weight: 600; letter-spacing: .04em; }
 .site-nav > a:not(.nav-contact) { position: relative; opacity: .82; }
@@ -167,6 +169,7 @@ h1 em, h2 em { color: var(--lime); font-style: italic; font-weight: 400; }
 .footer-brand { display: flex; align-items: center; gap: 14px; font-family: var(--serif); font-size: 1.5rem; }
 .footer-brand img { filter: brightness(0) invert(1); }
 .footer-brand img.brand-wordmark { width: 178px; height: 60px; object-fit: contain; }
+.coming-soon-logo { display: block; width: 200px; height: 68px; margin: 0 auto 28px; object-fit: contain; }
 .site-footer p { color: rgba(255,255,255,.55); }
 .footer-links { display: flex; flex-direction: column; gap: 8px; font-size: .78rem; }
 .footer-bottom { grid-column: 1 / -1; display: grid; grid-template-columns: 1fr 1fr auto; margin-top: 55px; padding-top: 20px; border-top: 1px solid rgba(255,255,255,.13); color: rgba(255,255,255,.43); font-size: .64rem; letter-spacing: .05em; text-transform: uppercase; }
