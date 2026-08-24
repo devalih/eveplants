@@ -1,9 +1,9 @@
 # Eve Plants
 
-> Eve Plants is an ecology-led home plant care service and independent plant-care publication for people living in the Netherlands.
+> Eve Plants is an ecology-led home plant care service based in Amsterdam and an independent plant-care publication for Dutch homes.
 
 ## Core pages
-- [Home plant care services](https://eveplants.com/): Monthly visits, plant health checks, plant selection and practical care advice.
+- [Home plant care services](https://eveplants.com/): Home visits in Amsterdam, in-person visits across Noord-Holland by arrangement, online sessions, plant health checks, plant selection and practical care advice.
 - [Plant wiki](https://eveplants.com/plants/): 27 plain-language profiles for common indoor plants and Dutch growing conditions.
 - [Journal](https://eveplants.com/blog/): Research-backed articles about houseplants in the Netherlands.
 - [Shop](https://eveplants.com/store/): An online store is planned; no products are currently sold.
@@ -17,3 +17,8 @@
 
 ## Contact
 Eve Plants will accept enquiries through WhatsApp. The public number has not yet been added.
+
+## Availability
+- Amsterdam is the primary in-person service area.
+- In-person visits elsewhere in Noord-Holland are available by arrangement.
+- Online plant-care sessions are available regardless of location.

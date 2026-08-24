@@ -13,7 +13,7 @@ Static multi-page brand site for Eve Plants, a personal home plant-care service 
 ## Before launch
 
 - Replace the disabled WhatsApp placeholder in `index.html` with a `https://wa.me/` link. Use the full number with country code and without `+` or spaces.
-- Confirm the service area and add it to the copy, structured data, and page metadata.
+- Confirm any future expansion beyond Amsterdam, Noord-Holland by arrangement, and online sessions before changing the published service area.
 - Confirm permission and attribution requirements for the selected footage.
 - Review the final business wording with the owner.
 

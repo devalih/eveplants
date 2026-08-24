@@ -80,10 +80,10 @@ function guidePage(plant) {
   <h2>How to propagate it</h2><p>${escapeHtml(plant.propagation)}</p><p>Use clean tools, label the cutting with its date and keep new propagation in stable bright indirect light while roots establish. Share healthy, pest-free material through a local stekjesbieb or plant swap.</p>
   <h2>Safety at home</h2><p>${escapeHtml(plant.safety)}</p>
   <section class="sources" id="sources"><h2>Sources and visual credit</h2><ul><li><a href="${plant.sourceUrl}">${escapeHtml(plant.sourceName)}</a></li><li><a href="${plant.mediaUrl}">${escapeHtml(plant.mediaCaption)}</a></li><li><a href="https://www.knmi.nl/kennis-en-datacentrum/uitleg/zonnig">KNMI: sunshine and sunless days in the Netherlands</a></li></ul></section>
-  <aside class="article-cta"><h2>Want care shaped around your room?</h2><p>Eve Plants looks at the plant, window, season and your routine as one connected system.</p><a class="text-arrow" href="../#contact">Ask about a home visit <span>↗</span></a></aside>
+  <aside class="article-cta"><h2>Want care shaped around your room?</h2><p>Book a home visit in Amsterdam, ask about Noord-Holland by arrangement, or meet online wherever you are.</p><a class="text-arrow" href="../#contact">Plan a plant-care session <span>↗</span></a></aside>
   </div></div>
 </article></main>
-<footer class="site-footer"><div class="shell footer-grid"><div class="footer-brand"><img src="../assets/logo-mark.svg" alt="" width="46" height="46" /><span>Eve Plants</span></div><p>Plant care for Amsterdam and Dutch homes.</p><div class="footer-links"><a href="./">Plant wiki</a><a href="../blog/">Journal</a><a href="../store/">Shop · soon</a></div><div class="footer-bottom"><span>© 2026 Eve Plants</span><span>${escapeHtml(plant.botanical)}</span><a href="#main">Back to top ↑</a></div></div></footer><script src="../script.js"></script>
+<footer class="site-footer"><div class="shell footer-grid"><div class="footer-brand"><img src="../assets/logo-mark.svg" alt="" width="46" height="46" /><span>Eve Plants</span></div><p>Plant care for Amsterdam and Dutch homes.</p><div class="footer-links"><a href="./">Plant wiki</a><a href="../blog/">Journal</a><a href="../store/">Shop · soon</a></div><div class="footer-bottom"><span>© 2026 Eve Plants</span><span>Amsterdam · Noord-Holland by arrangement · Online</span><a href="#main">Back to top ↑</a></div></div></footer><script src="../script.js"></script>
 </body></html>`;
 }
 
