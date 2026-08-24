@@ -1,0 +1,18 @@
+# Eve Plants
+
+> Eve Plants is an ecology-led home plant care service and independent plant-care publication for people living in the Netherlands.
+
+## Core pages
+- [Home plant care services](https://eveplants.com/): Monthly visits, plant health checks, plant selection and practical care advice.
+- [Plant wiki](https://eveplants.com/plants/): Plain-language guides to common indoor plants and Dutch growing conditions.
+- [Journal](https://eveplants.com/blog/): Research-backed articles about houseplants in the Netherlands.
+- [Shop](https://eveplants.com/store/): An online store is planned; no products are currently sold.
+
+## Editorial approach
+- Advice is written for Dutch homes, seasons, daylight and regional tap-water differences.
+- Plant care is contextual: check light, soil moisture, drainage, temperature and the individual plant before acting.
+- Articles link to primary horticultural or official Dutch sources where available.
+- The site does not diagnose human or animal health conditions.
+
+## Contact
+Eve Plants will accept enquiries through WhatsApp. The public number has not yet been added.

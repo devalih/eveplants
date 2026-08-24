@@ -9,8 +9,14 @@
     <meta property="og:description" content="Personal plant care, grounded in ecology." />
     <meta property="og:image" content="https://eveplants.com/assets/images/eve-hero-poster.webp" />
     <meta property="og:type" content="website" />
+    <meta property="og:url" content="https://eveplants.com/" />
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="robots" content="index,follow,max-image-preview:large,max-snippet:-1,max-video-preview:-1" />
     <link rel="canonical" href="https://eveplants.com/" />
     <link rel="icon" href="assets/logo-mark.svg" type="image/svg+xml" />
+    <link rel="manifest" href="site.webmanifest" />
+    <link rel="alternate" type="application/rss+xml" title="Eve Plants Journal" href="https://eveplants.com/feed.xml" />
+    <link rel="preload" as="image" href="assets/images/eve-hero-poster.webp" fetchpriority="high" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600&family=Newsreader:opsz,wght@6..72,400;6..72,500&display=swap" rel="stylesheet" />
@@ -30,8 +36,9 @@
       </button>
       <nav class="site-nav" id="site-nav" aria-label="Main navigation" data-nav>
         <a href="#services">Services</a>
-        <a href="#approach">Approach</a>
-        <a href="#about">About</a>
+        <a href="plants/">Plant wiki</a>
+        <a href="blog/">Journal</a>
+        <a href="store/">Shop</a>
         <a class="nav-contact" href="#contact">Let’s talk plants <span>↗</span></a>
       </nav>
     </header>
@@ -189,11 +196,46 @@
       <div class="shell footer-grid">
         <div class="footer-brand"><img src="assets/logo-mark.svg" alt="" width="46" height="46" /><span>Eve Plants</span></div>
         <p>Personal plant care.<br />Grounded in ecology.</p>
-        <div class="footer-links"><a href="#services">Services</a><a href="#about">About</a><a href="#contact">WhatsApp</a></div>
+        <div class="footer-links"><a href="#services">Services</a><a href="plants/">Plant wiki</a><a href="blog/">Journal</a><a href="store/">Shop · soon</a><a href="#contact">WhatsApp</a></div>
         <div class="footer-bottom"><span>© 2026 Eve Plants</span><span>Indoor + outdoor plant care</span><a href="#top">Back to top ↑</a></div>
       </div>
     </footer>
 
+    <script type="application/ld+json">
+      {
+        "@context": "https://schema.org",
+        "@graph": [
+          {
+            "@type": "ProfessionalService",
+            "@id": "https://eveplants.com/#business",
+            "name": "Eve Plants",
+            "url": "https://eveplants.com/",
+            "logo": "https://eveplants.com/assets/logo-mark.svg",
+            "image": "https://eveplants.com/assets/images/eve-hero-poster.webp",
+            "description": "Personal home plant care, monthly visits, plant-health advice and plant recommendations grounded in ecology.",
+            "areaServed": { "@type": "Country", "name": "Netherlands" },
+            "knowsAbout": ["houseplant care", "indoor plants", "outdoor plants", "plant health", "ecology"],
+            "sameAs": []
+          },
+          {
+            "@type": "WebSite",
+            "@id": "https://eveplants.com/#website",
+            "url": "https://eveplants.com/",
+            "name": "Eve Plants",
+            "publisher": { "@id": "https://eveplants.com/#business" },
+            "inLanguage": "en-NL"
+          },
+          {
+            "@type": "FAQPage",
+            "mainEntity": [
+              { "@type": "Question", "name": "Do I need to know what plants I have?", "acceptedAnswer": { "@type": "Answer", "text": "No. Identifying plants and understanding their needs is part of an Eve Plants visit." } },
+              { "@type": "Question", "name": "Can Eve Plants help with outdoor plants?", "acceptedAnswer": { "@type": "Answer", "text": "Yes. Eve Plants supports indoor and outdoor plants with advice shaped around the home, local conditions and available space." } },
+              { "@type": "Question", "name": "What happens during a monthly plant-care visit?", "acceptedAnswer": { "@type": "Answer", "text": "Plants are checked individually, essential care is carried out and the owner receives simple guidance for the weeks between visits." } }
+            ]
+          }
+        ]
+      }
+    </script>
     <script src="script.js"></script>
   </body>
 </html>
