@@ -1,0 +1,110 @@
+const fs = require('node:fs');
+const path = require('node:path');
+
+const root = path.resolve(__dirname, '..');
+const plants = JSON.parse(fs.readFileSync(path.join(root, 'data', 'plant-guides.json'), 'utf8'));
+const published = '2026-08-24';
+
+function escapeHtml(value) {
+  return String(value)
+    .replaceAll('&', '&amp;')
+    .replaceAll('<', '&lt;')
+    .replaceAll('>', '&gt;')
+    .replaceAll('"', '&quot;');
+}
+
+function guidePage(plant) {
+  const imageUrl = `https://eveplants.com/assets/images/editorial/${plant.image}`;
+  const pageUrl = `https://eveplants.com/plants/${plant.slug}.html`;
+  const signals = plant.signals.map(([signal, check]) => `<tr><td>${escapeHtml(signal)}</td><td>${escapeHtml(check)}</td></tr>`).join('');
+  const schema = {
+    '@context': 'https://schema.org',
+    '@graph': [
+      {
+        '@type': 'Article',
+        headline: `${plant.name} care in the Netherlands`,
+        description: plant.description,
+        datePublished: published,
+        dateModified: published,
+        author: { '@type': 'Organization', name: 'Eve Plants', url: 'https://eveplants.com/' },
+        publisher: { '@type': 'Organization', name: 'Eve Plants', logo: { '@type': 'ImageObject', url: 'https://eveplants.com/assets/logo-mark.svg' } },
+        mainEntityOfPage: pageUrl,
+        image: imageUrl,
+        about: { '@type': 'Thing', name: plant.botanical },
+        inLanguage: 'en-NL',
+        spatialCoverage: { '@type': 'City', name: 'Amsterdam' }
+      },
+      {
+        '@type': 'BreadcrumbList',
+        itemListElement: [
+          { '@type': 'ListItem', position: 1, name: 'Home', item: 'https://eveplants.com/' },
+          { '@type': 'ListItem', position: 2, name: 'Plant wiki', item: 'https://eveplants.com/plants/' },
+          { '@type': 'ListItem', position: 3, name: plant.name }
+        ]
+      },
+      {
+        '@type': 'FAQPage',
+        mainEntity: [
+          { '@type': 'Question', name: `How do you care for ${plant.name} in the Netherlands?`, acceptedAnswer: { '@type': 'Answer', text: plant.answer } },
+          { '@type': 'Question', name: `What light does ${plant.name} need?`, acceptedAnswer: { '@type': 'Answer', text: plant.light } },
+          { '@type': 'Question', name: `How should ${plant.name} care change in Dutch winter?`, acceptedAnswer: { '@type': 'Answer', text: plant.season } }
+        ]
+      }
+    ]
+  };
+
+  return `<!doctype html>
+<html lang="en-NL">
+<head>
+  <meta charset="UTF-8" /><meta name="viewport" content="width=device-width, initial-scale=1" /><meta name="theme-color" content="#173f32" />
+  <meta name="description" content="${escapeHtml(plant.description)}" /><meta name="robots" content="index,follow,max-image-preview:large,max-snippet:-1" />
+  <meta property="og:title" content="${escapeHtml(plant.name)} care in the Netherlands · Eve Plants" /><meta property="og:description" content="${escapeHtml(plant.answer)}" /><meta property="og:image" content="${imageUrl}" /><meta property="og:type" content="article" /><meta property="og:url" content="${pageUrl}" /><meta property="og:locale" content="en_NL" /><meta name="twitter:card" content="summary_large_image" />
+  <link rel="canonical" href="${pageUrl}" /><link rel="icon" href="../assets/logo-mark.svg" type="image/svg+xml" /><link rel="manifest" href="../site.webmanifest" /><link rel="alternate" type="application/rss+xml" title="Eve Plants Journal" href="https://eveplants.com/feed.xml" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" /><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin /><link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600&family=Newsreader:opsz,wght@6..72,400;6..72,500&display=swap" rel="stylesheet" /><link rel="stylesheet" href="../styles.css" />
+  <title>${escapeHtml(plant.name)} care in the Netherlands · Eve Plants</title>
+  <script type="application/ld+json">${JSON.stringify(schema)}</script>
+</head>
+<body class="inner-page">
+<a class="skip-link" href="#main">Skip to content</a>
+<header class="site-header"><a class="brand" href="../" aria-label="Eve Plants home"><img src="../assets/logo-mark.svg" alt="" width="42" height="42" /><span class="brand-name">Eve Plants</span></a><button class="menu-toggle" type="button" aria-expanded="false" aria-controls="site-nav" data-menu-toggle><span></span><span></span><span class="sr-only">Open menu</span></button><nav class="site-nav" id="site-nav" aria-label="Main navigation" data-nav><a href="../#services">Services</a><a href="./" aria-current="page">Plant wiki</a><a href="../blog/">Journal</a><a href="../store/">Shop</a><a class="nav-contact" href="../#contact">Let’s talk plants <span>↗</span></a></nav></header>
+<main id="main"><article>
+  <header class="article-hero"><div class="article-shell"><nav class="breadcrumbs" aria-label="Breadcrumb"><a href="../">Home</a> / <a href="./">Plant wiki</a> / ${escapeHtml(plant.name)}</nav><p class="page-kicker">Plant guide · ${escapeHtml(plant.botanical)}</p><h1>${escapeHtml(plant.name)} care in the Netherlands.</h1><p class="article-dek">A practical profile for Amsterdam apartments and Dutch homes, from summer window light to winter heating.</p><div class="article-byline"><span>By Eve Plants</span><time datetime="${published}">24 August 2026</time><span>${escapeHtml(plant.difficulty)} care</span></div></div></header>
+  <div class="article-shell article-layout"><aside class="article-aside"><strong>In this guide</strong><ol><li><a href="#answer">Quick answer</a></li><li><a href="#care">Care at a glance</a></li><li><a href="#amsterdam">Amsterdam fit</a></li><li><a href="#winter">Dutch winter</a></li><li><a href="#problems">Read the signs</a></li><li><a href="#sources">Sources</a></li></ol></aside>
+  <div class="article-body"><div class="answer-box" id="answer"><strong>Short answer</strong><p>${escapeHtml(plant.answer)}</p></div>
+  <figure class="article-media"><img src="../assets/images/editorial/${plant.image}" alt="${escapeHtml(plant.imageAlt)}" width="1200" height="675" loading="eager" decoding="async" /><figcaption>${escapeHtml(plant.mediaCaption)} <a href="${plant.mediaUrl}">Watch the source video ↗</a></figcaption></figure>
+  <h2 id="care">Care at a glance</h2><table class="care-table"><tbody><tr><th>Botanical name</th><td><em>${escapeHtml(plant.botanical)}</em></td></tr><tr><th>Light</th><td>${escapeHtml(plant.light)}</td></tr><tr><th>Water</th><td>${escapeHtml(plant.water)}</td></tr><tr><th>Soil</th><td>${escapeHtml(plant.soil)}</td></tr><tr><th>Temperature</th><td>${escapeHtml(plant.temperature)}</td></tr><tr><th>Feeding</th><td>${escapeHtml(plant.feed)}</td></tr></tbody></table>
+  <h2 id="amsterdam">Does it fit an Amsterdam home?</h2><p>${escapeHtml(plant.amsterdam)}</p><p>Window direction is only the beginning. Opposite buildings, balconies, trees, privacy film and distance from the glass all change the usable light. Check the intended position at midday before buying, and remember that a spot that works in June may not work in December.</p>
+  <h2>Water the root ball, not the calendar</h2><p>${escapeHtml(plant.water)} Use a nursery pot or another container with drainage holes, water the root ball evenly, and empty the cachepot afterwards. Pot size, root mass, light and room temperature determine the interval; the day of the week does not.</p><p>${escapeHtml(plant.soil)} Repot when roots and mix indicate a need rather than immediately after purchase. A much larger pot stays wet longer and can turn a simple watering error into root damage.</p>
+  <h2 id="winter">What changes in Dutch winter?</h2><p>${escapeHtml(plant.season)}</p><p>During long grey stretches, clean dusty leaves, use the brightest suitable position and pause routine feeding when the plant is not growing. Keep foliage clear of both hot radiator air and cold glass. Make one change at a time so you can see what helped.</p>
+  <h2 id="problems">Read the plant’s signals</h2><table class="care-table"><thead><tr><th>What you see</th><th>What to check first</th></tr></thead><tbody>${signals}</tbody></table><p>One imperfect old leaf rarely requires an emergency response. Look for a pattern across new growth, soil moisture and roots, and compare with a dated photo before changing several variables.</p>
+  <h2>How to propagate it</h2><p>${escapeHtml(plant.propagation)}</p><p>Use clean tools, label the cutting with its date and keep new propagation in stable bright indirect light while roots establish. Share healthy, pest-free material through a local stekjesbieb or plant swap.</p>
+  <h2>Safety at home</h2><p>${escapeHtml(plant.safety)}</p>
+  <section class="sources" id="sources"><h2>Sources and visual credit</h2><ul><li><a href="${plant.sourceUrl}">${escapeHtml(plant.sourceName)}</a></li><li><a href="${plant.mediaUrl}">${escapeHtml(plant.mediaCaption)}</a></li><li><a href="https://www.knmi.nl/kennis-en-datacentrum/uitleg/zonnig">KNMI: sunshine and sunless days in the Netherlands</a></li></ul></section>
+  <aside class="article-cta"><h2>Want care shaped around your room?</h2><p>Eve Plants looks at the plant, window, season and your routine as one connected system.</p><a class="text-arrow" href="../#contact">Ask about a home visit <span>↗</span></a></aside>
+  </div></div>
+</article></main>
+<footer class="site-footer"><div class="shell footer-grid"><div class="footer-brand"><img src="../assets/logo-mark.svg" alt="" width="46" height="46" /><span>Eve Plants</span></div><p>Plant care for Amsterdam and Dutch homes.</p><div class="footer-links"><a href="./">Plant wiki</a><a href="../blog/">Journal</a><a href="../store/">Shop · soon</a></div><div class="footer-bottom"><span>© 2026 Eve Plants</span><span>${escapeHtml(plant.botanical)}</span><a href="#main">Back to top ↑</a></div></div></footer><script src="../script.js"></script>
+</body></html>`;
+}
+
+function card(plant, index) {
+  const featured = index === 0 ? ' is-featured' : '';
+  return `<a class="editorial-card${featured}" href="${plant.slug}.html"><div class="card-meta"><span>${escapeHtml(plant.botanical)}</span><span>${escapeHtml(plant.difficulty)}</span></div><div><h2>${escapeHtml(plant.name)}</h2><p>${escapeHtml(plant.answer)}</p><span class="card-link">Open care profile <span>↗</span></span></div></a>`;
+}
+
+for (const plant of plants) {
+  fs.writeFileSync(path.join(root, 'plants', `${plant.slug}.html`), guidePage(plant));
+}
+
+const indexPath = path.join(root, 'plants', 'index.html');
+let indexHtml = fs.readFileSync(indexPath, 'utf8');
+const start = '<!-- GENERATED:PLANT-CARDS:START -->';
+const end = '<!-- GENERATED:PLANT-CARDS:END -->';
+const generated = `${start}\n${plants.map(card).join('\n')}\n${end}`;
+if (!indexHtml.includes(start) || !indexHtml.includes(end)) {
+  throw new Error('Plant-card markers are missing from plants/index.html');
+}
+indexHtml = indexHtml.replace(new RegExp(`${start}[\\s\\S]*?${end}`), generated);
+fs.writeFileSync(indexPath, indexHtml);
+
+console.log(`Built ${plants.length} plant guides and refreshed the wiki index.`);
