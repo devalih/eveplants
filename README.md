@@ -4,11 +4,11 @@ Static multi-page brand site for Eve Plants, a personal home plant-care service 
 
 ## Site structure
 
-- `/` — service landing page
-- `/blog/` — journal index with ten launch articles
-- `/plants/` — plant-care wiki index with 27 launch profiles
-- `/store/` — upcoming online shop
-- `/templates/` — copyable HTML templates for future blog posts and plant guides
+- `/`, service landing page
+- `/blog/`, journal index with ten launch articles
+- `/plants/`, plant-care wiki index with 27 launch profiles
+- `/store/`, upcoming online shop
+- `/templates/`, copyable HTML templates for future blog posts and plant guides
 
 ## Before launch
 

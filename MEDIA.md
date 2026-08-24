@@ -17,8 +17,8 @@ Every page using these assets includes a visible creator/source caption and link
 
 ## Pexels media
 
-- [Monstera leaf unfurling by Super Lunar](https://www.pexels.com/video/a-time-lapse-of-a-plant-6175654/) — home-page hero video and poster.
-- [Woman taking care of houseplants by Los Muertos Crew](https://www.pexels.com/video/woman-taking-care-of-her-houseplants-7616923/) — home-page care video and stills.
+- [Monstera leaf unfurling by Super Lunar](https://www.pexels.com/video/a-time-lapse-of-a-plant-6175654/), home-page hero video and poster.
+- [Woman taking care of houseplants by Los Muertos Crew](https://www.pexels.com/video/woman-taking-care-of-her-houseplants-7616923/), home-page care video and stills.
 
 ## Original assets
 
