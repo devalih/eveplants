@@ -40,18 +40,11 @@ em { color: var(--leaf); font-style: normal; }
 .text-link { color: var(--muted); font-size: .9rem; font-weight: 700; }
 
 .hero-art { position: relative; min-height: 460px; overflow: hidden; border-radius: 50% 50% 15px 15px; background: var(--sage); }
-.hero-art::after { content: ""; position: absolute; right: 9%; bottom: 0; left: 9%; height: 13%; border-radius: 50% 50% 0 0; background: #c6d8bd; }
-.sun { position: absolute; top: 12%; right: 15%; width: 72px; height: 72px; border-radius: 50%; background: #ebc274; opacity: .78; }
-.stem { position: absolute; z-index: 2; bottom: 26%; left: 50%; width: 9px; height: 51%; border-radius: 99px; background: var(--leaf); transform: rotate(4deg); }
-.leaf { position: absolute; z-index: 3; width: 105px; height: 57px; border-radius: 100% 0 100% 0; background: var(--deep); }
-.leaf-one { top: 28%; left: 42%; transform: rotate(-47deg); }
-.leaf-two { top: 38%; left: 52%; transform: scaleX(-1) rotate(-30deg); background: #5e8964; }
-.leaf-three { top: 49%; left: 35%; transform: rotate(-51deg); background: #3d6c51; }
-.leaf-four { top: 58%; left: 53%; transform: scaleX(-1) rotate(-38deg); background: #5d8660; }
-.leaf-five { top: 19%; left: 51%; width: 83px; transform: scaleX(-1) rotate(-42deg); background: #6d976b; }
-.pot { position: absolute; z-index: 4; bottom: 8%; left: 50%; width: 150px; height: 138px; border-radius: 8px 8px 35px 35px; background: #c96e4e; transform: translateX(-50%); }
-.pot-rim { position: absolute; top: -12px; left: -8px; width: 166px; height: 26px; border-radius: 50%; background: #a94f3c; }
-.hero-caption { position: absolute; z-index: 5; bottom: 11%; left: 7%; color: var(--deep); font-family: var(--serif); font-size: 1.05rem; transform: rotate(-90deg); transform-origin: left center; }
+.hero-video { position: absolute; inset: 0; width: 100%; height: 100%; object-fit: cover; }
+.hero-shade { position: absolute; inset: 0; background: linear-gradient(180deg, rgba(16, 44, 31, .04), rgba(16, 44, 31, .55)); }
+.hero-video-label { position: absolute; z-index: 2; top: 25px; right: 25px; display: inline-flex; align-items: center; gap: 8px; padding: 8px 12px; border: 1px solid rgba(255,255,255,.38); border-radius: 99px; color: white; background: rgba(21, 60, 44, .52); font-size: .7rem; letter-spacing: .08em; text-transform: uppercase; backdrop-filter: blur(8px); }
+.live-dot { width: 7px; height: 7px; border-radius: 50%; background: #e2c18a; box-shadow: 0 0 0 4px rgba(226,193,138,.2); }
+.hero-caption { position: absolute; z-index: 2; bottom: 11%; left: 7%; color: white; font-family: var(--serif); font-size: 1.05rem; transform: rotate(-90deg); transform-origin: left center; }
 
 .intro-band { padding: 72px 0; background: var(--cream); }
 .intro-grid { display: grid; grid-template-columns: .32fr 1fr; gap: 10%; align-items: start; }
@@ -70,6 +63,15 @@ h2 { margin-bottom: 0; font-family: var(--serif); font-size: clamp(2.5rem, 4vw, 
 .featured-card p { color: #c2d0c4; }
 .card-link { margin-top: auto; color: var(--leaf); font-size: .83rem; font-weight: 700; }
 .featured-card .card-link { color: #e2c18a; }
+
+.growth-strip { display: grid; grid-template-columns: 1fr .85fr 1fr; gap: 24px; align-items: center; padding-bottom: 120px; }
+.growth-image { overflow: hidden; aspect-ratio: 1.25; border-radius: 5px; background: var(--sage); }
+.growth-image img { width: 100%; height: 100%; display: block; object-fit: cover; transition: transform .5s ease; }
+.growth-image:hover img { transform: scale(1.04); }
+.growth-leaves { transform: translateY(35px); }
+.growth-copy { padding: 10px 12px; }
+.growth-copy h2 { margin-bottom: 18px; font-size: clamp(2.2rem, 3.7vw, 3.4rem); }
+.growth-copy p:not(.section-kicker) { color: var(--muted); font-size: .94rem; }
 
 .about-section { padding: 110px 0; background: var(--sage); }
 .about-grid { display: grid; grid-template-columns: .9fr 1fr; align-items: center; gap: 12%; }
@@ -101,6 +103,9 @@ h2 { margin-bottom: 0; font-family: var(--serif); font-size: clamp(2.5rem, 4vw, 
   .section-note { margin-top: 25px; }
   .service-grid { grid-template-columns: 1fr; }
   .service-card { min-height: 300px; }
+  .growth-strip { grid-template-columns: 1fr 1fr; gap: 12px; padding-bottom: 75px; }
+  .growth-copy { grid-column: 1 / -1; grid-row: 1; padding: 0 0 25px; }
+  .growth-leaves { transform: none; }
   .about-section { padding: 75px 0; }
   .about-visual { min-height: 280px; }
   .contact-section { padding-top: 70px; }

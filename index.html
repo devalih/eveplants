@@ -4,7 +4,7 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <meta name="description" content="Thoughtful plant care for healthier, happier homes. Monthly visits, practical advice, and plant recommendations from an ecology-minded plant lover." />
-    <title>Evergreen Home Plant Care</title>
+    <title>Eve Plants · Home plant care</title>
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700&family=Playfair+Display:wght@600;700&display=swap" rel="stylesheet" />
@@ -12,9 +12,9 @@
   </head>
   <body>
     <header class="site-header">
-      <a class="brand" href="#top" aria-label="Evergreen Home Plant Care home">
+      <a class="brand" href="#top" aria-label="Eve Plants home">
         <span class="brand-mark" aria-hidden="true">✦</span>
-        <span>Evergreen<span class="brand-accent">.</span></span>
+        <span>Eve Plants<span class="brand-accent">.</span></span>
       </a>
       <nav aria-label="Main navigation">
         <a href="#services">Services</a>
@@ -26,7 +26,7 @@
     <main id="top">
       <section class="hero page-width">
         <div class="hero-copy">
-          <p class="eyebrow">Home plant care · Rooted in ecology</p>
+          <p class="eyebrow">Eve Plants · Rooted in ecology</p>
           <h1>Good plants make a house feel <em>alive.</em></h1>
           <p class="hero-text">Personal, practical support for the plants you already love—and thoughtful guidance for the ones you’re ready to bring home.</p>
           <div class="hero-actions">
@@ -34,15 +34,12 @@
             <a class="text-link" href="#services">Explore services <span aria-hidden="true">↓</span></a>
           </div>
         </div>
-        <div class="hero-art" aria-label="Illustration of a healthy potted house plant">
-          <div class="sun"></div>
-          <div class="leaf leaf-one"></div>
-          <div class="leaf leaf-two"></div>
-          <div class="leaf leaf-three"></div>
-          <div class="leaf leaf-four"></div>
-          <div class="leaf leaf-five"></div>
-          <div class="stem"></div>
-          <div class="pot"><div class="pot-rim"></div></div>
+        <div class="hero-art" aria-label="Time-lapse of a plant growing">
+          <video class="hero-video" autoplay muted playsinline poster="assets/images/plant-leaves.jpg">
+            <source src="assets/video/bean-seed.mp4" type="video/mp4" />
+          </video>
+          <div class="hero-shade"></div>
+          <div class="hero-video-label"><span class="live-dot"></span> growth in motion</div>
           <div class="hero-caption">care that grows with you</div>
         </div>
       </section>
@@ -87,6 +84,12 @@
         </div>
       </section>
 
+      <section class="growth-strip page-width" aria-label="Plant growth story">
+        <div class="growth-image growth-seed"><img src="assets/images/plant-seed.jpg" alt="A young bean plant beginning to grow" loading="lazy" /></div>
+        <div class="growth-copy"><p class="section-kicker">Watch closely</p><h2>Every stage has a story.</h2><p>The best plant care starts with noticing: new roots, a change in light, a leaf asking for help. Eve Plants helps you read those small signals.</p></div>
+        <div class="growth-image growth-leaves"><img src="assets/images/plant-leaves.jpg" alt="A mature bean plant with an extensive root system" loading="lazy" /></div>
+      </section>
+
       <section class="about-section" id="about">
         <div class="page-width about-grid">
           <div class="about-visual"><span>listen</span><span>observe</span><span>grow</span></div>
@@ -114,8 +117,18 @@
     </main>
 
     <footer class="site-footer page-width">
-      <span>© 2026 Evergreen Home Plant Care</span>
+      <span>© 2026 Eve Plants</span>
       <span>Made for homes with room to grow.</span>
     </footer>
+    <script>
+      const heroVideo = document.querySelector('.hero-video');
+      const cuts = ['assets/video/bean-seed.mp4', 'assets/video/bean-sprout.mp4', 'assets/video/bean-leaves.mp4'];
+      let cutIndex = 0;
+      heroVideo.addEventListener('ended', () => {
+        cutIndex = (cutIndex + 1) % cuts.length;
+        heroVideo.src = cuts[cutIndex];
+        heroVideo.play().catch(() => {});
+      });
+    </script>
   </body>
 </html>
