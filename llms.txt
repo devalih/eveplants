@@ -4,7 +4,7 @@
 
 ## Core pages
 - [Home plant care services](https://eveplants.com/): Monthly visits, plant health checks, plant selection and practical care advice.
-- [Plant wiki](https://eveplants.com/plants/): Plain-language guides to common indoor plants and Dutch growing conditions.
+- [Plant wiki](https://eveplants.com/plants/): 27 plain-language profiles for common indoor plants and Dutch growing conditions.
 - [Journal](https://eveplants.com/blog/): Research-backed articles about houseplants in the Netherlands.
 - [Shop](https://eveplants.com/store/): An online store is planned; no products are currently sold.
 
@@ -12,6 +12,7 @@
 - Advice is written for Dutch homes, seasons, daylight and regional tap-water differences.
 - Plant care is contextual: check light, soil moisture, drainage, temperature and the individual plant before acting.
 - Articles link to primary horticultural or official Dutch sources where available.
+- Plant profiles include a direct answer, care table, Amsterdam-home fit, Dutch-winter adaptation, symptom checks, propagation and safety context.
 - The site does not diagnose human or animal health conditions.
 
 ## Contact
