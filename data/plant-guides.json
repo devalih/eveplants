@@ -13,7 +13,20 @@
     "feed": "Light feeding during active spring and summer growth",
     "amsterdam": "Its upright footprint suits narrow Amsterdam rooms, but a dim hallway is still not useful light. A position near a window usually produces firmer, faster growth than a decorative corner deep inside the room.",
     "season": "In a grey Dutch winter the pot may stay moist for weeks. Move it closer to daylight, stop watering by calendar and keep the leaves from touching cold glass.",
-    "signals": [["Soft base or yellow leaves", "Roots staying wet or cold"], ["Wrinkled leaves", "Extended drought or damaged roots"], ["Leaning growth", "Uneven or insufficient light"]],
+    "signals": [
+      [
+        "Soft base or yellow leaves",
+        "Roots staying wet or cold"
+      ],
+      [
+        "Wrinkled leaves",
+        "Extended drought or damaged roots"
+      ],
+      [
+        "Leaning growth",
+        "Uneven or insufficient light"
+      ]
+    ],
     "propagation": "Division is the quickest way to preserve a cultivar. Leaf sections can root, but variegated forms may revert to green.",
     "safety": "The plant can cause irritation if eaten and is a concern for cats and dogs. Keep it out of reach and check species-level veterinary guidance.",
     "image": "snake-plant-blooming.jpg",
@@ -37,15 +50,30 @@
     "feed": "Modest feed during visible active growth",
     "amsterdam": "The ZZ plant works well where floor space and attention are limited. Do not use its reputation for tolerance as permission to place it in a windowless corridor.",
     "season": "Short Dutch winter days slow an already measured growth rate. Keep the plant closer to useful light and expect a much longer interval between waterings.",
-    "signals": [["Yellowing stems", "Often prolonged wetness; inspect the rhizomes"], ["Wrinkled stalks", "Severe drought or root loss"], ["Long weak growth", "Too little light"]],
+    "signals": [
+      [
+        "Yellowing stems",
+        "Often prolonged wetness; inspect the rhizomes"
+      ],
+      [
+        "Wrinkled stalks",
+        "Severe drought or root loss"
+      ],
+      [
+        "Long weak growth",
+        "Too little light"
+      ]
+    ],
     "propagation": "Divide established rhizomes when repotting. Leaf propagation is possible but slow and demands patience.",
     "safety": "All parts contain irritating compounds. Avoid sap contact and keep the plant away from children and chewing pets.",
     "image": "dutch-plant-table.webp",
-    "imageAlt": "A dense table of houseplants at a Dutch garden centre",
-    "mediaCaption": "Kamerplanten at a Dutch garden centre. Footage by Yoga and Plant With Roos.",
-    "mediaUrl": "https://www.youtube.com/watch?v=9bH2C6mGev8",
+    "imageAlt": "ZZ plant (Zamioculcas zamiifolia)",
+    "mediaCaption": "ZZ plant photograph from Wikimedia Commons.",
+    "mediaUrl": "",
     "sourceName": "NC State Extension: Zamioculcas zamiifolia",
-    "sourceUrl": "https://plants.ces.ncsu.edu/plants/zamioculcas-zamiifolia/"
+    "sourceUrl": "https://plants.ces.ncsu.edu/plants/zamioculcas-zamiifolia/",
+    "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Zamioculcas%20zamiifolia%201.jpg?width=1200",
+    "mediaCreditUrl": "https://commons.wikimedia.org/wiki/File%3AZamioculcas%20zamiifolia%201.jpg"
   },
   {
     "slug": "spider-plant-care-netherlands",
@@ -61,15 +89,30 @@
     "feed": "Light, regular feeding while actively producing leaves and runners",
     "amsterdam": "A hanging spider plant uses vertical space in compact apartments. Keep it clear of a radiator and close enough to a window that its variegation stays strong.",
     "season": "Dry heated air and slower winter water use can happen together. Check the root ball at depth rather than reacting to every brown tip with more water.",
-    "signals": [["Brown tips", "Uneven moisture, salt buildup or dry heated air"], ["Pale floppy leaves", "Light or root stress"], ["No plantlets", "Plant maturity, light and feeding"]],
+    "signals": [
+      [
+        "Brown tips",
+        "Uneven moisture, salt buildup or dry heated air"
+      ],
+      [
+        "Pale floppy leaves",
+        "Light or root stress"
+      ],
+      [
+        "No plantlets",
+        "Plant maturity, light and feeding"
+      ]
+    ],
     "propagation": "Peg a developed plantlet onto moist mix while attached, or cut it free and root it in water or mix.",
     "safety": "Spider plant is widely treated as a lower-risk choice, but discourage chewing and confirm suitability with a veterinarian for your own animals.",
     "image": "hanging-plants.webp",
-    "imageAlt": "Hanging indoor plants at an Amsterdam garden centre",
-    "mediaCaption": "Hanging plants at Intratuin Amsterdam. Footage by Yoga and Plant With Roos.",
-    "mediaUrl": "https://www.youtube.com/watch?v=g0SAUE7WK7M",
+    "imageAlt": "Spider plant (Chlorophytum comosum)",
+    "mediaCaption": "A full spider plant in an indoor setting.",
+    "mediaUrl": "",
     "sourceName": "NC State Extension: Chlorophytum comosum",
-    "sourceUrl": "https://plants.ces.ncsu.edu/plants/chlorophytum-comosum/"
+    "sourceUrl": "https://plants.ces.ncsu.edu/plants/chlorophytum-comosum/",
+    "imageUrl": "https://plantedcauldron.com/cdn/shop/files/6F80DBDA-B87E-43B3-9EC5-1BCF28A619E7.jpg?v=1761191064&width=1445",
+    "mediaCreditUrl": "https://plantedcauldron.com/products/chlorophytum-comosum-variegated-spider-plant"
   },
   {
     "slug": "rubber-plant-care-netherlands",
@@ -85,15 +128,30 @@
     "feed": "Balanced feed in active growth; little or none in winter slowdown",
     "amsterdam": "A rubber plant gives strong vertical structure without a wide canopy at first. Place it near tall apartment windows but leave space between foliage and cold glass.",
     "season": "Sudden autumn relocation plus reduced light can trigger leaf drop. Make placement changes gradually and reduce watering as the mix dries more slowly.",
-    "signals": [["Lower leaf drop", "Change in light, cold or root stress"], ["Brown patches", "Harsh sun, cold damage or watering extremes"], ["Small new leaves", "Insufficient light or nutrition"]],
+    "signals": [
+      [
+        "Lower leaf drop",
+        "Change in light, cold or root stress"
+      ],
+      [
+        "Brown patches",
+        "Harsh sun, cold damage or watering extremes"
+      ],
+      [
+        "Small new leaves",
+        "Insufficient light or nutrition"
+      ]
+    ],
     "propagation": "Use stem cuttings or air layering. Wear gloves and protect surfaces from the milky latex sap.",
     "safety": "The latex sap can irritate skin and the plant is unsuitable for chewing pets or children.",
     "image": "rubber-plant-care.webp",
-    "imageAlt": "A Dutch plant enthusiast holding a young rubber plant",
-    "mediaCaption": "A young rubber plant in a Dutch home. Footage by Melissa Aarssée.",
-    "mediaUrl": "https://www.youtube.com/watch?v=3gBH__KY7GA",
+    "imageAlt": "Rubber plant (Ficus elastica)",
+    "mediaCaption": "Rubber plant photograph from Wikimedia Commons.",
+    "mediaUrl": "",
     "sourceName": "NC State Extension: Ficus elastica",
-    "sourceUrl": "https://plants.ces.ncsu.edu/plants/ficus-elastica/"
+    "sourceUrl": "https://plants.ces.ncsu.edu/plants/ficus-elastica/",
+    "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Ficus%20November%202008-1.jpg?width=1200",
+    "mediaCreditUrl": "https://commons.wikimedia.org/wiki/File%3AFicus%20November%202008-1.jpg"
   },
   {
     "slug": "peace-lily-care-netherlands",
@@ -109,15 +167,30 @@
     "feed": "Dilute feeding during active growth; excess can burn roots",
     "amsterdam": "Peace lilies can suit rooms that receive filtered city light, but a dark bathroom without a window will not sustain one. A bright bathroom can offer more stable humidity.",
     "season": "Move it away from a frequently opened winter window and monitor soil carefully; central heating can dry leaves while low light keeps roots wet.",
-    "signals": [["Dramatic droop", "Dry mix, damaged roots or extreme temperature"], ["No flowers", "Often low light or immature growth"], ["Brown margins", "Moisture swings, salts or dry air"]],
+    "signals": [
+      [
+        "Dramatic droop",
+        "Dry mix, damaged roots or extreme temperature"
+      ],
+      [
+        "No flowers",
+        "Often low light or immature growth"
+      ],
+      [
+        "Brown margins",
+        "Moisture swings, salts or dry air"
+      ]
+    ],
     "propagation": "Divide a mature clump so every section retains healthy roots and several leaves.",
     "safety": "Peace lilies contain calcium oxalate crystals and can cause oral irritation if chewed. Keep away from pets and children.",
     "image": "amsterdam-plant-aisle.webp",
-    "imageAlt": "Indoor plants displayed in an Amsterdam plant shop",
-    "mediaCaption": "Choosing plants in Amsterdam. Footage by Perfect Choice Nursery.",
-    "mediaUrl": "https://www.youtube.com/watch?v=kNuTKXwujsc",
+    "imageAlt": "Peace lily (Spathiphyllum)",
+    "mediaCaption": "A full peace lily in a bright indoor room.",
+    "mediaUrl": "",
     "sourceName": "NC State Extension: Spathiphyllum",
-    "sourceUrl": "https://plants.ces.ncsu.edu/plants/spathiphyllum/"
+    "sourceUrl": "https://plants.ces.ncsu.edu/plants/spathiphyllum/",
+    "imageUrl": "https://www.waechter-pflanzencenter.de/wp-content/uploads/PCW-BLOG-Einblatt3.jpg",
+    "mediaCreditUrl": "https://www.waechter-pflanzencenter.de/einblatt-die-zimmerpflanze-fuer-gesuendere-luft/"
   },
   {
     "slug": "heartleaf-philodendron-care-netherlands",
@@ -133,15 +206,30 @@
     "feed": "Modest feed during active growth",
     "amsterdam": "Its trailing habit makes use of shelves and tall ceilings without occupying much floor space. Keep it closer to the window than styling photos often suggest.",
     "season": "Growth slows sharply in low winter light. Move the plant closer to a window and lengthen the watering interval without allowing a cold, wet root ball.",
-    "signals": [["Long bare spaces", "Insufficient light or ageing vines"], ["Yellow leaves", "Wet roots or natural leaf ageing"], ["Tiny new leaves", "Low light or lack of climbing support"]],
+    "signals": [
+      [
+        "Long bare spaces",
+        "Insufficient light or ageing vines"
+      ],
+      [
+        "Yellow leaves",
+        "Wet roots or natural leaf ageing"
+      ],
+      [
+        "Tiny new leaves",
+        "Low light or lack of climbing support"
+      ]
+    ],
     "propagation": "Take stem cuttings with at least one node. Root in water or lightly moist mix, then combine several cuttings for a fuller pot.",
     "safety": "Calcium oxalate crystals make the plant irritating if chewed. Keep it away from children and pets.",
     "image": "hoya-hanging.webp",
-    "imageAlt": "Trailing houseplants hanging in a Dutch garden centre",
-    "mediaCaption": "Trailing plants at Intratuin Amsterdam. Footage by Yoga and Plant With Roos.",
-    "mediaUrl": "https://www.youtube.com/watch?v=g0SAUE7WK7M",
+    "imageAlt": "Heartleaf philodendron (Philodendron hederaceum)",
+    "mediaCaption": "Heartleaf philodendron photograph from Wikimedia Commons.",
+    "mediaUrl": "",
     "sourceName": "NC State Extension: Philodendron hederaceum",
-    "sourceUrl": "https://plants.ces.ncsu.edu/plants/philodendron-hederaceum/"
+    "sourceUrl": "https://plants.ces.ncsu.edu/plants/philodendron-hederaceum/",
+    "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Philodendron%20scandens%20subsp%20oxycardium2.jpg?width=1200",
+    "mediaCreditUrl": "https://commons.wikimedia.org/wiki/File%3APhilodendron%20scandens%20subsp%20oxycardium2.jpg"
   },
   {
     "slug": "areca-palm-care-netherlands",
@@ -157,15 +245,30 @@
     "feed": "Palm-appropriate feed during active growth",
     "amsterdam": "Areca palms create a soft screen in larger living rooms but need more window light and floor area than a small nursery plant suggests.",
     "season": "Central heating can dry frond tips and encourage spider mites. Increase observation, not automatic watering, and measure humidity if damage continues.",
-    "signals": [["Brown tips", "Dry air, salts or uneven moisture"], ["Yellow fronds", "Root stress, light or nutrition"], ["Fine stippling", "Inspect for spider mites"]],
+    "signals": [
+      [
+        "Brown tips",
+        "Dry air, salts or uneven moisture"
+      ],
+      [
+        "Yellow fronds",
+        "Root stress, light or nutrition"
+      ],
+      [
+        "Fine stippling",
+        "Inspect for spider mites"
+      ]
+    ],
     "propagation": "Commercial pots often contain several seedlings. Division is possible but disruptive; seed propagation is slow.",
     "safety": "Do not treat a common name as a safety guarantee. Confirm the exact species with a veterinarian for pet-accessible rooms.",
     "image": "amsterdam-plant-aisle.webp",
-    "imageAlt": "Tall houseplants lining an Amsterdam plant shop aisle",
-    "mediaCaption": "Large foliage plants in Amsterdam. Footage by Perfect Choice Nursery.",
-    "mediaUrl": "https://www.youtube.com/watch?v=kNuTKXwujsc",
+    "imageAlt": "Areca palm (Dypsis lutescens)",
+    "mediaCaption": "Areca palm photograph from Wikimedia Commons.",
+    "mediaUrl": "",
     "sourceName": "NC State Extension: Dypsis lutescens",
-    "sourceUrl": "https://plants.ces.ncsu.edu/plants/dypsis-lutescens/"
+    "sourceUrl": "https://plants.ces.ncsu.edu/plants/dypsis-lutescens/",
+    "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Dypsis%20lutescens1.jpg?width=1200",
+    "mediaCreditUrl": "https://commons.wikimedia.org/wiki/File%3ADypsis%20lutescens1.jpg"
   },
   {
     "slug": "kentia-palm-care-netherlands",
@@ -181,15 +284,30 @@
     "feed": "Infrequent, measured feeding during growth",
     "amsterdam": "Kentia palms have a long history as interior plants and tolerate less-than-perfect rooms, but their arching fronds need generous space and daylight.",
     "season": "Keep it away from radiator airflow and cold entrance halls. Slow winter growth means both watering and feeding should become more conservative.",
-    "signals": [["Brown leaflet tips", "Dry air, salts or root stress"], ["Yellowing", "Light, moisture or nutrient imbalance"], ["Webbing or speckling", "Spider mites"]],
+    "signals": [
+      [
+        "Brown leaflet tips",
+        "Dry air, salts or root stress"
+      ],
+      [
+        "Yellowing",
+        "Light, moisture or nutrient imbalance"
+      ],
+      [
+        "Webbing or speckling",
+        "Spider mites"
+      ]
+    ],
     "propagation": "Kentia palms are grown from seed. Clumps sold together are separate seedlings, not offsets from one plant.",
     "safety": "Confirm the botanical identity and veterinary guidance if pets can chew the fronds.",
     "image": "dutch-plant-table.webp",
-    "imageAlt": "A varied selection of indoor plants at a Dutch garden centre",
-    "mediaCaption": "A Dutch garden-centre plant display. Footage by Yoga and Plant With Roos.",
-    "mediaUrl": "https://www.youtube.com/watch?v=9bH2C6mGev8",
+    "imageAlt": "Kentia palm (Howea forsteriana)",
+    "mediaCaption": "A Kentia palm styled as a large indoor plant.",
+    "mediaUrl": "",
     "sourceName": "NC State Extension: Howea forsteriana",
-    "sourceUrl": "https://plants.ces.ncsu.edu/plants/howea-forsteriana/"
+    "sourceUrl": "https://plants.ces.ncsu.edu/plants/howea-forsteriana/",
+    "imageUrl": "https://www.123planten.nl/media/cache/product_reviews/k/e/1920x1080_co_ar_tr_100/kentia-extra-vol-121579-1320069174.webp",
+    "mediaCreditUrl": "https://www.123planten.nl/kentia-palm-grande-hofo27tf170.html"
   },
   {
     "slug": "boston-fern-care-netherlands",
@@ -205,15 +323,30 @@
     "feed": "Dilute feeding during active frond production",
     "amsterdam": "A bright bathroom can suit Boston fern if it has a real window. A windowless bathroom is dark regardless of humidity.",
     "season": "Heated winter rooms can crisp fronds quickly while low light slows root use. Move away from radiators and monitor both humidity and soil rather than flooding the pot.",
-    "signals": [["Crisp fronds", "Drought, dry air or root damage"], ["Yellowing centre", "Saturated crown or poor airflow"], ["Fine webbing", "Spider mites"]],
+    "signals": [
+      [
+        "Crisp fronds",
+        "Drought, dry air or root damage"
+      ],
+      [
+        "Yellowing centre",
+        "Saturated crown or poor airflow"
+      ],
+      [
+        "Fine webbing",
+        "Spider mites"
+      ]
+    ],
     "propagation": "Divide a healthy mature clump or separate rooted runners where present. Ferns also reproduce from spores, but that is a slower specialist project.",
     "safety": "Boston fern is commonly considered a lower-risk houseplant, but confirm pet-specific guidance and discourage chewing.",
     "image": "hanging-plants.webp",
-    "imageAlt": "A collection of hanging foliage plants in Amsterdam",
-    "mediaCaption": "Hanging foliage at Intratuin Amsterdam. Footage by Yoga and Plant With Roos.",
-    "mediaUrl": "https://www.youtube.com/watch?v=g0SAUE7WK7M",
+    "imageAlt": "Boston fern (Nephrolepis exaltata)",
+    "mediaCaption": "Boston fern photograph from Wikimedia Commons.",
+    "mediaUrl": "",
     "sourceName": "NC State Extension: Nephrolepis exaltata",
-    "sourceUrl": "https://plants.ces.ncsu.edu/plants/nephrolepis-exaltata/"
+    "sourceUrl": "https://plants.ces.ncsu.edu/plants/nephrolepis-exaltata/",
+    "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Nephrolepis%20exaltata%20indoor0705c.jpg?width=1200",
+    "mediaCreditUrl": "https://commons.wikimedia.org/wiki/File%3ANephrolepis%20exaltata%20indoor0705c.jpg"
   },
   {
     "slug": "aloe-vera-care-netherlands",
@@ -229,15 +362,30 @@
     "feed": "Very light feeding in spring and summer",
     "amsterdam": "Aloe needs one of the brightest places in an apartment. If neighbouring buildings block the sky, a windowsill may still be too dim in winter.",
     "season": "Dutch winter combines low light with cool glass. Keep the plant dry for longer, warm enough, and as close to strong daylight as possible.",
-    "signals": [["Soft translucent leaves", "Too much moisture or cold"], ["Thin curled leaves", "Extended drought or weak roots"], ["Stretched rosette", "Insufficient light"]],
+    "signals": [
+      [
+        "Soft translucent leaves",
+        "Too much moisture or cold"
+      ],
+      [
+        "Thin curled leaves",
+        "Extended drought or weak roots"
+      ],
+      [
+        "Stretched rosette",
+        "Insufficient light"
+      ]
+    ],
     "propagation": "Separate offsets once they have enough size and roots. Pot into a small dry mix and delay heavy watering while cuts settle.",
     "safety": "Leaf latex and whole-leaf ingestion can cause irritation or gastrointestinal effects. Keep away from pets and do not treat home-grown gel as medical advice.",
     "image": "succulent-table.webp",
-    "imageAlt": "Succulents displayed at a Dutch garden centre",
-    "mediaCaption": "Succulents at a Dutch garden centre. Footage by Yoga and Plant With Roos.",
-    "mediaUrl": "https://www.youtube.com/watch?v=9bH2C6mGev8",
+    "imageAlt": "Aloe vera (Aloe vera)",
+    "mediaCaption": "A full Aloe vera houseplant with its characteristic leaves.",
+    "mediaUrl": "",
     "sourceName": "NC State Extension: Aloe vera",
-    "sourceUrl": "https://plants.ces.ncsu.edu/plants/aloe-vera/"
+    "sourceUrl": "https://plants.ces.ncsu.edu/plants/aloe-vera/",
+    "imageUrl": "https://www.plantvine.com/plants/Aloe-Main.jpg",
+    "mediaCreditUrl": "https://www.plantvine.com/product/aloe-vera-medicinal-aloe-aloe-barbadensis/"
   },
   {
     "slug": "jade-plant-care-netherlands",
@@ -253,15 +401,30 @@
     "feed": "Light succulent feed during active growth",
     "amsterdam": "A sunny upper-floor window can work beautifully. A shaded ground-floor apartment between tall buildings usually needs a different plant or supplemental light.",
     "season": "Reduce water sharply when winter light and growth fall. Cold wet roots are far riskier than a short dry period.",
-    "signals": [["Soft yellow leaves", "Excess water or root trouble"], ["Wrinkled leaves", "Drought or roots unable to absorb"], ["Stretched weak stems", "Insufficient light"]],
+    "signals": [
+      [
+        "Soft yellow leaves",
+        "Excess water or root trouble"
+      ],
+      [
+        "Wrinkled leaves",
+        "Drought or roots unable to absorb"
+      ],
+      [
+        "Stretched weak stems",
+        "Insufficient light"
+      ]
+    ],
     "propagation": "Let clean stem or leaf cuttings callus, then place them on or in a lightly moist gritty mix under bright light.",
     "safety": "Jade plant can be harmful to cats and dogs if eaten. Keep fallen leaves and pots out of reach.",
     "image": "succulent-table.webp",
-    "imageAlt": "Compact succulent plants in a Dutch garden centre",
-    "mediaCaption": "Compact plants in a Dutch garden centre. Footage by Yoga and Plant With Roos.",
-    "mediaUrl": "https://www.youtube.com/watch?v=9bH2C6mGev8",
+    "imageAlt": "Jade plant (Crassula ovata)",
+    "mediaCaption": "A mature jade plant in a home interior.",
+    "mediaUrl": "",
     "sourceName": "NC State Extension: Crassula ovata",
-    "sourceUrl": "https://plants.ces.ncsu.edu/plants/crassula-ovata/"
+    "sourceUrl": "https://plants.ces.ncsu.edu/plants/crassula-ovata/",
+    "imageUrl": "https://cdn.webshopapp.com/shops/271987/files/464028616/crassula-ovata-xl.jpg",
+    "mediaCreditUrl": "https://www.fleur-direct.be/nl/crassula-ovata-bush-xl.html"
   },
   {
     "slug": "hoya-carnosa-care-netherlands",
@@ -277,15 +440,30 @@
     "feed": "Light feeding during active vine and bud growth",
     "amsterdam": "Hoya suits a bright shelf or hanging position, but its vines may eventually need a trellis. Place it where flowers and sticky nectar will not damage delicate surfaces.",
     "season": "Keep it close to winter light and avoid cold water or cold glass. Slower drying means a longer interval, not a permanently dry root ball.",
-    "signals": [["Leaf drop", "Watering extremes, cold or relocation"], ["No flowers", "Light, maturity or repeated pruning of spurs"], ["Soft leaves", "Root or moisture stress"]],
+    "signals": [
+      [
+        "Leaf drop",
+        "Watering extremes, cold or relocation"
+      ],
+      [
+        "No flowers",
+        "Light, maturity or repeated pruning of spurs"
+      ],
+      [
+        "Soft leaves",
+        "Root or moisture stress"
+      ]
+    ],
     "propagation": "Take stem cuttings with nodes and root them in water, perlite or a light mix under warm bright conditions.",
     "safety": "Hoyas are often chosen for pet-aware homes, but verify the exact species and your animal’s risk with a veterinarian.",
     "image": "hoya-hanging.webp",
-    "imageAlt": "A collection of trailing waxy-leaved plants hanging in Amsterdam",
-    "mediaCaption": "Trailing plants at Intratuin Amsterdam. Footage by Yoga and Plant With Roos.",
-    "mediaUrl": "https://www.youtube.com/watch?v=g0SAUE7WK7M",
+    "imageAlt": "Wax plant (Hoya carnosa)",
+    "mediaCaption": "Wax plant photograph from Wikimedia Commons.",
+    "mediaUrl": "",
     "sourceName": "NC State Extension: Hoya carnosa",
-    "sourceUrl": "https://plants.ces.ncsu.edu/plants/hoya-carnosa/"
+    "sourceUrl": "https://plants.ces.ncsu.edu/plants/hoya-carnosa/",
+    "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/NKN-2007-06-13%20114250%20Hoya%20Carnosa%20(Yvan%20Leduc%20author%20for%20Wikipedia).jpg?width=1200",
+    "mediaCreditUrl": "https://commons.wikimedia.org/wiki/File%3ANKN-2007-06-13%20114250%20Hoya%20Carnosa%20(Yvan%20Leduc%20author%20for%20Wikipedia).jpg"
   },
   {
     "slug": "fiddle-leaf-fig-care-netherlands",
@@ -301,15 +479,30 @@
     "feed": "Balanced feed during active spring and summer growth",
     "amsterdam": "This plant needs more light than many interior photographs imply. Tall Dutch windows help, but place the canopy beside the glass rather than across the room.",
     "season": "Autumn light loss, moving the plant and turning on heating at once can trigger leaf drop. Change conditions gradually and keep roots from staying wet.",
-    "signals": [["Dark spreading spots", "Root stress, cold or disease"], ["Crisp tan edges", "Drying, heat or damaged roots"], ["Lower leaf drop", "Change in light or moisture"]],
+    "signals": [
+      [
+        "Dark spreading spots",
+        "Root stress, cold or disease"
+      ],
+      [
+        "Crisp tan edges",
+        "Drying, heat or damaged roots"
+      ],
+      [
+        "Lower leaf drop",
+        "Change in light or moisture"
+      ]
+    ],
     "propagation": "Stem cuttings can root, but air layering is often more reliable on an established woody stem. A detached leaf alone will not form a tree.",
     "safety": "Ficus sap can irritate skin and the plant is unsuitable for chewing pets.",
     "image": "rubber-plant-care.webp",
-    "imageAlt": "A broad-leaved young Ficus plant being discussed in a Dutch home",
-    "mediaCaption": "Broad-leaved Ficus care in a Dutch home. Footage by Melissa Aarssée.",
-    "mediaUrl": "https://www.youtube.com/watch?v=3gBH__KY7GA",
+    "imageAlt": "Fiddle-leaf fig (Ficus lyrata)",
+    "mediaCaption": "A full fiddle-leaf fig in a sunlit interior.",
+    "mediaUrl": "",
     "sourceName": "NC State Extension: Ficus lyrata",
-    "sourceUrl": "https://plants.ces.ncsu.edu/plants/ficus-lyrata/"
+    "sourceUrl": "https://plants.ces.ncsu.edu/plants/ficus-lyrata/",
+    "imageUrl": "https://greenparadiselive.com/cdn/shop/files/ficuslyrata_3.jpg?v=1694943254&width=3840",
+    "mediaCreditUrl": "https://greenparadiselive.com/products/green-paradise-ficus-lyrata-plant-fiddle-leaf-fig-live-plant"
   },
   {
     "slug": "bird-of-paradise-care-netherlands",
@@ -325,15 +518,30 @@
     "feed": "Regular balanced feed during strong growth",
     "amsterdam": "Large Strelitzia is often sold as instant interior architecture. Measure the window, ceiling, route upstairs and mature spread before bringing one into a compact flat.",
     "season": "Move it to maximum winter light and wipe broad leaves clean. Reduce watering as growth slows, but do not let an actively lit plant remain dry for extreme periods.",
-    "signals": [["Splitting leaves", "Often normal movement damage; check draughts"], ["Curling edges", "Drying, heat or root stress"], ["Weak leaning growth", "Insufficient or one-sided light"]],
+    "signals": [
+      [
+        "Splitting leaves",
+        "Often normal movement damage; check draughts"
+      ],
+      [
+        "Curling edges",
+        "Drying, heat or root stress"
+      ],
+      [
+        "Weak leaning growth",
+        "Insufficient or one-sided light"
+      ]
+    ],
     "propagation": "Divide a mature multi-growth plant only when distinct rooted sections exist. Seed propagation is slow.",
     "safety": "Leaves and seeds can cause gastrointestinal upset if eaten. Keep away from pets and children who chew plants.",
     "image": "amsterdam-alocasia.webp",
-    "imageAlt": "Large sculptural tropical foliage in an Amsterdam plant shop",
-    "mediaCaption": "Sculptural foliage in an Amsterdam plant shop. Footage by Perfect Choice Nursery.",
-    "mediaUrl": "https://www.youtube.com/watch?v=kNuTKXwujsc",
+    "imageAlt": "Bird of paradise (Strelitzia reginae / Strelitzia nicolai)",
+    "mediaCaption": "A full white bird of paradise, Strelitzia nicolai, indoors.",
+    "mediaUrl": "",
     "sourceName": "NC State Extension: Strelitzia reginae",
-    "sourceUrl": "https://plants.ces.ncsu.edu/plants/strelitzia-reginae/"
+    "sourceUrl": "https://plants.ces.ncsu.edu/plants/strelitzia-reginae/",
+    "imageUrl": "https://hortology.co.uk/cdn/shop/files/Strelitzia-nicolai-45x200cm-VS_1200x.jpg?v=1782903416",
+    "mediaCreditUrl": "https://hortology.co.uk/products/strelitzia-nicolai-giant-white-bird-of-paradise"
   },
   {
     "slug": "anthurium-care-netherlands",
@@ -349,15 +557,30 @@
     "feed": "Dilute feed during active leaves and flowers",
     "amsterdam": "Anthurium can perform well near a bright east or west window. In deep rooms, colourful spathes fade and new growth becomes weaker.",
     "season": "Keep it away from a radiator and cold night-time glass. Lower winter growth requires less frequent water and little feeding.",
-    "signals": [["Brown margins", "Dry air, salts or root stress"], ["No new flowers", "Low light, maturity or nutrition"], ["Yellow leaves", "Wet roots or ageing"]],
+    "signals": [
+      [
+        "Brown margins",
+        "Dry air, salts or root stress"
+      ],
+      [
+        "No new flowers",
+        "Low light, maturity or nutrition"
+      ],
+      [
+        "Yellow leaves",
+        "Wet roots or ageing"
+      ]
+    ],
     "propagation": "Divide established rooted growths during repotting. Stem sections with nodes can be rooted in warm humid conditions.",
     "safety": "Anthurium contains calcium oxalate crystals and can irritate the mouth and skin. Keep away from children and pets.",
     "image": "amsterdam-plant-aisle.webp",
-    "imageAlt": "Colourful indoor plant displays in Amsterdam",
-    "mediaCaption": "Indoor plant displays in Amsterdam. Footage by Perfect Choice Nursery.",
-    "mediaUrl": "https://www.youtube.com/watch?v=kNuTKXwujsc",
+    "imageAlt": "Flamingo flower (Anthurium andraeanum)",
+    "mediaCaption": "Flamingo flower photograph from Wikimedia Commons.",
+    "mediaUrl": "",
     "sourceName": "NC State Extension: Anthurium andraeanum",
-    "sourceUrl": "https://plants.ces.ncsu.edu/plants/anthurium-andraeanum/"
+    "sourceUrl": "https://plants.ces.ncsu.edu/plants/anthurium-andraeanum/",
+    "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Anthurium%20andraeanum%20hatem%20moushir.JPG?width=1200",
+    "mediaCreditUrl": "https://commons.wikimedia.org/wiki/File%3AAnthurium%20andraeanum%20hatem%20moushir.JPG"
   },
   {
     "slug": "tradescantia-zebrina-care-netherlands",
@@ -373,15 +596,30 @@
     "feed": "Light feeding during fast active growth",
     "amsterdam": "Its colour and quick growth suit a bright windowsill or shelf. It is inexpensive to restart, making it a good stekjes plant for neighbourhood swaps.",
     "season": "Winter growth can become pale and stretched. Move it closer to light, prune weak sections and use healthy spring cuttings for a dense reset.",
-    "signals": [["Faded purple colour", "Insufficient light"], ["Bare vine bases", "Age, low light or lack of pruning"], ["Mushy stems", "Cold wet conditions"]],
+    "signals": [
+      [
+        "Faded purple colour",
+        "Insufficient light"
+      ],
+      [
+        "Bare vine bases",
+        "Age, low light or lack of pruning"
+      ],
+      [
+        "Mushy stems",
+        "Cold wet conditions"
+      ]
+    ],
     "propagation": "Take short pieces with one or more nodes and root directly in lightly moist mix or water. Several cuttings make a fuller pot.",
     "safety": "Sap can irritate sensitive skin and may bother pets that chew it. Handle cuttings carefully and place out of reach.",
     "image": "tradescantia-table.webp",
-    "imageAlt": "Purple and silver Tradescantia plants at a Dutch garden centre",
-    "mediaCaption": "Tradescantia and other compact plants at a Dutch garden centre. Footage by Yoga and Plant With Roos.",
-    "mediaUrl": "https://www.youtube.com/watch?v=9bH2C6mGev8",
+    "imageAlt": "Tradescantia zebrina (Tradescantia zebrina)",
+    "mediaCaption": "A full trailing Tradescantia zebrina houseplant.",
+    "mediaUrl": "",
     "sourceName": "NC State Extension: Tradescantia zebrina",
-    "sourceUrl": "https://plants.ces.ncsu.edu/plants/tradescantia-zebrina/"
+    "sourceUrl": "https://plants.ces.ncsu.edu/plants/tradescantia-zebrina/",
+    "imageUrl": "https://134345889.cdn6.editmysite.com/uploads/1/3/4/3/134345889/JAJRAND2DH4WQ3WLTM4DK3WH.jpeg?optimize=medium&width=2400",
+    "mediaCreditUrl": "https://www.roamingrootak.com/product/house-plants/1692"
   },
   {
     "slug": "dwarf-umbrella-tree-care-netherlands",
@@ -397,15 +635,30 @@
     "feed": "Balanced feed during active leafy growth",
     "amsterdam": "The plant can become a compact indoor tree for a bright living room. Regular pruning keeps it proportionate to narrow rooms and stair access.",
     "season": "Expect slower growth and longer drying intervals in winter. Watch for scale and spider mites when central heating is running.",
-    "signals": [["Sudden leaf drop", "Cold, relocation or watering stress"], ["Long thin stems", "Insufficient light"], ["Sticky leaves", "Inspect for scale"]],
+    "signals": [
+      [
+        "Sudden leaf drop",
+        "Cold, relocation or watering stress"
+      ],
+      [
+        "Long thin stems",
+        "Insufficient light"
+      ],
+      [
+        "Sticky leaves",
+        "Inspect for scale"
+      ]
+    ],
     "propagation": "Root warm-season stem cuttings with several nodes in a light medium under bright filtered light.",
     "safety": "The plant contains irritating calcium oxalates. Keep it away from chewing pets and children.",
     "image": "dutch-plant-table.webp",
-    "imageAlt": "Leafy indoor plants at a Dutch garden centre",
-    "mediaCaption": "Leafy kamerplanten in the Netherlands. Footage by Yoga and Plant With Roos.",
-    "mediaUrl": "https://www.youtube.com/watch?v=9bH2C6mGev8",
+    "imageAlt": "Dwarf umbrella tree (Heptapleurum arboricola)",
+    "mediaCaption": "Dwarf umbrella tree photograph from Wikimedia Commons.",
+    "mediaUrl": "",
     "sourceName": "NC State Extension: Heptapleurum arboricola",
-    "sourceUrl": "https://plants.ces.ncsu.edu/plants/heptapleurum-arboricola/"
+    "sourceUrl": "https://plants.ces.ncsu.edu/plants/heptapleurum-arboricola/",
+    "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Schefflera%20arboricola%2C%20vrugte%2C%20a%2C%20Pretoria.jpg?width=1200",
+    "mediaCreditUrl": "https://commons.wikimedia.org/wiki/File%3ASchefflera%20arboricola%2C%20vrugte%2C%20a%2C%20Pretoria.jpg"
   },
   {
     "slug": "yucca-cane-care-netherlands",
@@ -421,15 +674,30 @@
     "feed": "Light feed during active growth",
     "amsterdam": "Yucca gives height without a very wide canopy, but sharp leaves need a safe traffic position. A bright top-floor window is usually a better fit than a shaded canal-house hallway.",
     "season": "Keep it close to winter daylight and dramatically reduce watering frequency as the pot dries more slowly.",
-    "signals": [["Soft cane or yellow centre", "Serious excess moisture"], ["Brown lower leaves", "Natural ageing or stress"], ["Weak pale growth", "Insufficient light"]],
+    "signals": [
+      [
+        "Soft cane or yellow centre",
+        "Serious excess moisture"
+      ],
+      [
+        "Brown lower leaves",
+        "Natural ageing or stress"
+      ],
+      [
+        "Weak pale growth",
+        "Insufficient light"
+      ]
+    ],
     "propagation": "Root healthy cane or stem sections in warmth. Basal offsets can be separated when they have enough growth.",
     "safety": "Yucca can be harmful to cats and dogs if eaten. Its pointed leaves also create a physical hazard in narrow walkways.",
     "image": "amsterdam-plant-aisle.webp",
-    "imageAlt": "Tall architectural plants in an Amsterdam shop aisle",
-    "mediaCaption": "Architectural houseplants in Amsterdam. Footage by Perfect Choice Nursery.",
-    "mediaUrl": "https://www.youtube.com/watch?v=kNuTKXwujsc",
+    "imageAlt": "Yucca cane (Yucca gigantea)",
+    "mediaCaption": "Yucca cane photograph from Wikimedia Commons.",
+    "mediaUrl": "",
     "sourceName": "NC State Extension: Yucca gigantea",
-    "sourceUrl": "https://plants.ces.ncsu.edu/plants/yucca-gigantea/"
+    "sourceUrl": "https://plants.ces.ncsu.edu/plants/yucca-gigantea/",
+    "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Yucca%20elephantipes%20HRM2.JPG?width=1200",
+    "mediaCreditUrl": "https://commons.wikimedia.org/wiki/File%3AYucca%20elephantipes%20HRM2.JPG"
   },
   {
     "slug": "christmas-cactus-care-netherlands",
@@ -445,15 +713,30 @@
     "feed": "Light feeding in the growth period, not during full bloom",
     "amsterdam": "A bright east window can suit it well. Once buds form, avoid moving it repeatedly between warm rooms and cold windowsills.",
     "season": "Autumn’s naturally longer nights can help flowering if artificial light does not interrupt darkness. Budded plants dislike abrupt temperature and moisture changes.",
-    "signals": [["Bud drop", "Relocation, temperature or moisture change"], ["Wrinkled segments", "Drought or damaged roots"], ["Soft base", "Excess moisture"]],
+    "signals": [
+      [
+        "Bud drop",
+        "Relocation, temperature or moisture change"
+      ],
+      [
+        "Wrinkled segments",
+        "Drought or damaged roots"
+      ],
+      [
+        "Soft base",
+        "Excess moisture"
+      ]
+    ],
     "propagation": "Twist off a short chain of healthy segments, let the end dry briefly and root it shallowly in a light mix.",
     "safety": "Generally considered lower risk, but eating plant material can still cause stomach upset. Confirm pet guidance with a veterinarian.",
     "image": "succulent-table.webp",
-    "imageAlt": "Compact succulent and epiphytic plants at a Dutch garden centre",
-    "mediaCaption": "Compact plants at a Dutch garden centre. Footage by Yoga and Plant With Roos.",
-    "mediaUrl": "https://www.youtube.com/watch?v=9bH2C6mGev8",
+    "imageAlt": "Christmas cactus (Schlumbergera truncata)",
+    "mediaCaption": "Christmas cactus photograph from Wikimedia Commons.",
+    "mediaUrl": "",
     "sourceName": "NC State Extension: Schlumbergera truncata",
-    "sourceUrl": "https://plants.ces.ncsu.edu/plants/schlumbergera-truncata/"
+    "sourceUrl": "https://plants.ces.ncsu.edu/plants/schlumbergera-truncata/",
+    "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Schlumbergera%20truncata%20flordemaio.jpg?width=1200",
+    "mediaCreditUrl": "https://commons.wikimedia.org/wiki/File%3ASchlumbergera%20truncata%20flordemaio.jpg"
   },
   {
     "slug": "phalaenopsis-orchid-care-netherlands",
@@ -469,15 +752,30 @@
     "feed": "Weak orchid feed during active root and leaf growth",
     "amsterdam": "An east-facing window often gives a useful balance. Move the plant back from cold single glazing at night while preserving daytime light.",
     "season": "A modest autumn temperature drop can support spike initiation, but cold draughts damage tropical roots and buds. Winter watering intervals usually lengthen.",
-    "signals": [["Silvery firm roots", "Ready to assess for watering"], ["Brown mushy roots", "Root rot or old collapsed tissue"], ["Bud blast", "Temperature, draught or moisture shock"]],
+    "signals": [
+      [
+        "Silvery firm roots",
+        "Ready to assess for watering"
+      ],
+      [
+        "Brown mushy roots",
+        "Root rot or old collapsed tissue"
+      ],
+      [
+        "Bud blast",
+        "Temperature, draught or moisture shock"
+      ]
+    ],
     "propagation": "Home propagation is uncommon. Occasionally a plant makes a keiki; separate it only after it has several leaves and developed roots.",
     "safety": "Phalaenopsis is widely regarded as a lower-risk orchid, but verify the exact plant and pet-specific advice before allowing access.",
     "image": "amsterdam-plant-aisle.webp",
-    "imageAlt": "Flowering and foliage houseplants displayed in Amsterdam",
-    "mediaCaption": "Choosing indoor plants in Amsterdam. Footage by Perfect Choice Nursery.",
-    "mediaUrl": "https://www.youtube.com/watch?v=kNuTKXwujsc",
+    "imageAlt": "Moth orchid (Phalaenopsis)",
+    "mediaCaption": "A full moth orchid with leaves, stems and flowers.",
+    "mediaUrl": "",
     "sourceName": "Royal Horticultural Society: Phalaenopsis growing guide",
-    "sourceUrl": "https://www.rhs.org.uk/plants/phalaenopsis/growing-guide"
+    "sourceUrl": "https://www.rhs.org.uk/plants/phalaenopsis/growing-guide",
+    "imageUrl": "https://chaletnursery.com/cdn/shop/files/Chalet-Chicago-indoor-plants-flowering-winter-gift-01.png?v=1764963952&width=1500",
+    "mediaCreditUrl": "https://chaletnursery.com/collections/flowering-indoor-plants"
   },
   {
     "slug": "chinese-evergreen-care-netherlands",
@@ -493,15 +791,30 @@
     "feed": "Light feed during active growth",
     "amsterdam": "Aglaonema tolerates filtered city light better than many colourful foliage plants. Keep it within the brighter half of the room rather than in a dark corridor.",
     "season": "Warmth matters in winter. A cold windowsill plus wet mix can damage roots even when the room feels comfortable during the day.",
-    "signals": [["Yellow lower leaves", "Wet roots or natural ageing"], ["Faded colour", "Insufficient light"], ["Brown edges", "Dry air, salts or moisture swings"]],
+    "signals": [
+      [
+        "Yellow lower leaves",
+        "Wet roots or natural ageing"
+      ],
+      [
+        "Faded colour",
+        "Insufficient light"
+      ],
+      [
+        "Brown edges",
+        "Dry air, salts or moisture swings"
+      ]
+    ],
     "propagation": "Divide rooted clumps or take cane-like stem sections with nodes in warm conditions.",
     "safety": "Aglaonema contains calcium oxalates and can irritate if chewed. Keep away from children and pets.",
     "image": "amsterdam-alocasia.webp",
-    "imageAlt": "Patterned tropical foliage in an Amsterdam plant shop",
-    "mediaCaption": "Patterned tropical foliage in Amsterdam. Footage by Perfect Choice Nursery.",
-    "mediaUrl": "https://www.youtube.com/watch?v=kNuTKXwujsc",
+    "imageAlt": "Chinese evergreen (Aglaonema)",
+    "mediaCaption": "Chinese evergreen photograph from Wikimedia Commons.",
+    "mediaUrl": "",
     "sourceName": "NC State Extension: Aglaonema",
-    "sourceUrl": "https://plants.ces.ncsu.edu/plants/aglaonema/"
+    "sourceUrl": "https://plants.ces.ncsu.edu/plants/aglaonema/",
+    "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Aglaonema%20costatum%20001.JPG?width=1200",
+    "mediaCreditUrl": "https://commons.wikimedia.org/wiki/File%3AAglaonema%20costatum%20001.JPG"
   },
   {
     "slug": "dracaena-marginata-care-netherlands",
@@ -517,15 +830,30 @@
     "feed": "Light feeding in spring and summer",
     "amsterdam": "The narrow canopy works in compact rooms and corners, provided the plant still has a clear view of the window and enough space from passing coats and bags.",
     "season": "Reduce watering as winter growth slows. Keep the pot away from a cold entrance and the leaf tips away from radiator airflow.",
-    "signals": [["Brown tips", "Moisture swings, salts or dry heat"], ["Yellow soft cane", "Serious excess water"], ["Leaning sparse crown", "Insufficient light"]],
+    "signals": [
+      [
+        "Brown tips",
+        "Moisture swings, salts or dry heat"
+      ],
+      [
+        "Yellow soft cane",
+        "Serious excess water"
+      ],
+      [
+        "Leaning sparse crown",
+        "Insufficient light"
+      ]
+    ],
     "propagation": "Root top cuttings or healthy cane sections in warmth. The cut parent cane can produce new shoots below the cut.",
     "safety": "Dracaena is harmful to cats and dogs if eaten. Position fallen leaves and the plant out of reach.",
     "image": "amsterdam-plant-aisle.webp",
-    "imageAlt": "Tall narrow houseplants in an Amsterdam plant shop",
-    "mediaCaption": "Tall plants for compact homes, filmed in Amsterdam by Perfect Choice Nursery.",
-    "mediaUrl": "https://www.youtube.com/watch?v=kNuTKXwujsc",
+    "imageAlt": "Dragon tree (Dracaena reflexa var. angustifolia)",
+    "mediaCaption": "Dragon tree photograph from Wikimedia Commons.",
+    "mediaUrl": "",
     "sourceName": "NC State Extension: Dracaena reflexa var. angustifolia",
-    "sourceUrl": "https://plants.ces.ncsu.edu/plants/dracaena-reflexa-var-angustifolia/"
+    "sourceUrl": "https://plants.ces.ncsu.edu/plants/dracaena-reflexa-var-angustifolia/",
+    "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Dracena%20in%20vaso.jpg?width=1200",
+    "mediaCreditUrl": "https://commons.wikimedia.org/wiki/File%3ADracena%20in%20vaso.jpg"
   },
   {
     "slug": "monstera-care-netherlands",
@@ -541,15 +869,34 @@
     "feed": "Moderate feeding during active growth; reduce when growth slows",
     "amsterdam": "Large leaves need useful daylight and room to climb. An east, south or west window with softened intensity usually works better than a decorative position deep inside an Amsterdam room.",
     "season": "In grey Dutch winter, move the plant closer to light and let the mix dry more slowly. Keep leaves away from cold glass, draughts and hot radiator air.",
-    "signals": [["Yellow leaves with wet mix", "Drainage, low light, pot size and root condition"], ["Brown dry edges", "Uneven watering, root stress, radiator air or accumulated salts"], ["No leaf splits", "Plant age, light and climbing support"], ["Long small growth", "Insufficient light"]],
+    "signals": [
+      [
+        "Yellow leaves with wet mix",
+        "Drainage, low light, pot size and root condition"
+      ],
+      [
+        "Brown dry edges",
+        "Uneven watering, root stress, radiator air or accumulated salts"
+      ],
+      [
+        "No leaf splits",
+        "Plant age, light and climbing support"
+      ],
+      [
+        "Long small growth",
+        "Insufficient light"
+      ]
+    ],
     "propagation": "Take a stem cutting with at least one node and aerial-root nub. Root it in water or a light medium in warm, bright indirect light.",
     "safety": "Monstera contains calcium oxalate and can irritate if chewed. Keep it away from children and pets.",
     "image": "monstera-basket.webp",
-    "imageAlt": "Monstera and hanging foliage in an Amsterdam garden centre",
-    "mediaCaption": "Monstera and hanging foliage at Intratuin Amsterdam. Footage by Yoga and Plant With Roos.",
-    "mediaUrl": "https://www.youtube.com/watch?v=g0SAUE7WK7M",
+    "imageAlt": "Monstera (Monstera deliciosa)",
+    "mediaCaption": "A mature Monstera deliciosa in a modern indoor setting.",
+    "mediaUrl": "",
     "sourceName": "NC State Extension: Monstera deliciosa",
-    "sourceUrl": "https://plants.ces.ncsu.edu/plants/monstera-deliciosa/"
+    "sourceUrl": "https://plants.ces.ncsu.edu/plants/monstera-deliciosa/",
+    "imageUrl": "https://cdn.shopify.com/s/files/1/0250/0329/4765/t/4/assets/pf-76c3e9a3--PflanzenMakelGrossmutterMonstera2.jpg?v=1613558018",
+    "mediaCreditUrl": "https://feey.ch/blogs/pflanzen-blog/10-grosse-zimmerpflanzen-fuer-viel-platz"
   },
   {
     "slug": "pothos-care-netherlands",
@@ -565,15 +912,34 @@
     "feed": "Light feeding during active growth",
     "amsterdam": "Pothos suits compact apartments as a trailing or climbing plant. Keep it close enough to a window that new growth stays leafy, rather than expecting a dark corner to sustain a full vine.",
     "season": "A Pothos several metres from a Dutch window may use water very slowly in winter. A brighter position is usually a better answer than stretching the watering interval indefinitely.",
-    "signals": [["Small new leaves", "Light, active-season nutrition and root space"], ["Loss of variegation", "Increase light gradually; genetics also matter"], ["Black or mushy sections", "Cold or root stress"], ["Long bare vines", "Low light, age or a need for pruning"]],
+    "signals": [
+      [
+        "Small new leaves",
+        "Light, active-season nutrition and root space"
+      ],
+      [
+        "Loss of variegation",
+        "Increase light gradually; genetics also matter"
+      ],
+      [
+        "Black or mushy sections",
+        "Cold or root stress"
+      ],
+      [
+        "Long bare vines",
+        "Low light, age or a need for pruning"
+      ]
+    ],
     "propagation": "Cut a healthy section with at least one node, the small joint where a leaf and aerial-root nub emerge. Root it in water or a lightly moist medium.",
     "safety": "Pothos contains calcium oxalate and is irritating if chewed. Keep it away from children and pets.",
     "image": "hoya-hanging.webp",
-    "imageAlt": "Trailing green houseplants hanging in an Amsterdam garden centre",
-    "mediaCaption": "Trailing plants at Intratuin Amsterdam. Footage by Yoga and Plant With Roos.",
-    "mediaUrl": "https://www.youtube.com/watch?v=g0SAUE7WK7M",
+    "imageAlt": "Pothos (Epipremnum aureum)",
+    "mediaCaption": "Pothos photograph from the image source.",
+    "mediaUrl": "",
     "sourceName": "NC State Extension: Epipremnum aureum",
-    "sourceUrl": "https://plants.ces.ncsu.edu/plants/epipremnum-aureum/"
+    "sourceUrl": "https://plants.ces.ncsu.edu/plants/epipremnum-aureum/",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/9/9e/Epipremnum_aureum_-_Botanischer_Garten_M%C3%BCnchen-Nymphenburg_-_DSC07995.JPG",
+    "mediaCreditUrl": "https://species.wikimedia.org/wiki/Epipremnum_aureum"
   },
   {
     "slug": "pilea-care-netherlands",
@@ -589,15 +955,34 @@
     "feed": "Light feeding during spring and summer growth",
     "amsterdam": "A Pilea is ideal for a bright windowsill or table in a compact Amsterdam home. Rotate it a quarter turn occasionally so it does not lean toward one narrow source of light.",
     "season": "Short winter days slow growth and lengthen drying time. Keep the plant near useful daylight, pause routine feeding and avoid watering a cool, dim pot too often.",
-    "signals": [["Leaning or one-sided growth", "Uneven light; rotate gradually"], ["Drooping leaves with dry mix", "Thirst; water thoroughly and drain"], ["Yellow soft leaves", "Mix staying wet too long"], ["Small pale new leaves", "Low light or limited nutrition during active growth"]],
+    "signals": [
+      [
+        "Leaning or one-sided growth",
+        "Uneven light; rotate gradually"
+      ],
+      [
+        "Drooping leaves with dry mix",
+        "Thirst; water thoroughly and drain"
+      ],
+      [
+        "Yellow soft leaves",
+        "Mix staying wet too long"
+      ],
+      [
+        "Small pale new leaves",
+        "Low light or limited nutrition during active growth"
+      ]
+    ],
     "propagation": "Separate a pup when it has several leaves and its own roots, or root a small offset in water or a lightly moist medium before potting it up.",
     "safety": "Pilea peperomioides is commonly treated as a lower-risk houseplant, but discourage chewing and check species-level veterinary guidance for your own animals.",
     "image": "amsterdam-pilea.webp",
-    "imageAlt": "Compact round-leaved houseplants in an Amsterdam plant shop",
-    "mediaCaption": "Compact houseplants in Amsterdam. Footage by Perfect Choice Nursery.",
-    "mediaUrl": "https://www.youtube.com/watch?v=kNuTKXwujsc",
+    "imageAlt": "Pilea (Pilea peperomioides)",
+    "mediaCaption": "Pilea photograph from Wikimedia Commons.",
+    "mediaUrl": "",
     "sourceName": "Royal Horticultural Society: Pilea peperomioides",
-    "sourceUrl": "https://www.rhs.org.uk/plants/18432/pilea-peperomioides/details"
+    "sourceUrl": "https://www.rhs.org.uk/plants/18432/pilea-peperomioides/details",
+    "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Pilea%20peperomioides.jpg?width=1200",
+    "mediaCreditUrl": "https://commons.wikimedia.org/wiki/File%3APilea%20peperomioides.jpg"
   },
   {
     "slug": "calathea-care-netherlands",
@@ -613,15 +998,34 @@
     "feed": "Light feeding only during active growth; avoid frequent doses in low light",
     "amsterdam": "Prayer plants appreciate a stable position where radiator air, cold windows and sharp summer sun are not competing. In a compact home, a few steps back from a bright window is often better than a sill above a heater.",
     "season": "Dutch winter asks for less water, cleaner leaves and more attention to warmth. Keep the root ball from sitting cold and wet, and do not try to solve low light with extra feeding.",
-    "signals": [["Brown crisp edges", "Dry heated air, uneven moisture, salts, roots and pests"], ["Yellowing with wet mix", "Root stress, drainage and cold conditions"], ["Curling leaves", "Moisture, humidity, temperature and light changes"], ["Faded or scorched patches", "Too much direct sun"]],
+    "signals": [
+      [
+        "Brown crisp edges",
+        "Dry heated air, uneven moisture, salts, roots and pests"
+      ],
+      [
+        "Yellowing with wet mix",
+        "Root stress, drainage and cold conditions"
+      ],
+      [
+        "Curling leaves",
+        "Moisture, humidity, temperature and light changes"
+      ],
+      [
+        "Faded or scorched patches",
+        "Too much direct sun"
+      ]
+    ],
     "propagation": "Divide a healthy established clump while repotting, keeping several stems and roots together in each division. Warmth and stable moisture help the divisions re-establish.",
     "safety": "Many Goeppertia species are treated as lower-risk for pets, but verify the exact plant and veterinary guidance for your household.",
     "image": "amsterdam-alocasia.webp",
-    "imageAlt": "Patterned tropical foliage in an Amsterdam plant shop",
-    "mediaCaption": "Patterned tropical foliage in Amsterdam. Footage by Perfect Choice Nursery.",
-    "mediaUrl": "https://www.youtube.com/watch?v=kNuTKXwujsc",
+    "imageAlt": "Calathea (Goeppertia spp. (formerly Calathea))",
+    "mediaCaption": "Calathea photograph from the image source.",
+    "mediaUrl": "",
     "sourceName": "NC State Extension: Goeppertia orbifolia",
-    "sourceUrl": "https://plants.ces.ncsu.edu/plants/goeppertia-orbifolia/"
+    "sourceUrl": "https://plants.ces.ncsu.edu/plants/goeppertia-orbifolia/",
+    "imageUrl": "https://www.plantvine.com/plants/calathea-orbifolia-2.jpg",
+    "mediaCreditUrl": "https://www.plantvine.com/product/calathea-orbifolia/"
   },
   {
     "slug": "peperomia-obtusifolia-care-netherlands",
@@ -637,14 +1041,29 @@
     "feed": "Light feed during active compact growth",
     "amsterdam": "Its small footprint makes it useful for a bright desk or sill. Keep it close enough to the window that new growth remains compact.",
     "season": "In winter the small pot may still dry slowly if the room is cool. Check below the surface and keep it from cold glass.",
-    "signals": [["Soft translucent leaves", "Excess moisture or cold"], ["Long gaps in growth", "Insufficient light"], ["Wrinkled leaves", "Drought or root loss"]],
+    "signals": [
+      [
+        "Soft translucent leaves",
+        "Excess moisture or cold"
+      ],
+      [
+        "Long gaps in growth",
+        "Insufficient light"
+      ],
+      [
+        "Wrinkled leaves",
+        "Drought or root loss"
+      ]
+    ],
     "propagation": "Root stem cuttings with nodes in a light mix. Leaf cuttings can work, though cultivar characteristics may vary.",
     "safety": "Peperomia is commonly chosen for pet-aware homes, but confirm the exact species and veterinary guidance for your household.",
     "image": "amsterdam-pilea.webp",
-    "imageAlt": "Compact round-leaved houseplants in an Amsterdam shop",
-    "mediaCaption": "Compact houseplants in Amsterdam. Footage by Perfect Choice Nursery.",
-    "mediaUrl": "https://www.youtube.com/watch?v=kNuTKXwujsc",
+    "imageAlt": "Baby rubber plant (Peperomia obtusifolia)",
+    "mediaCaption": "Baby rubber plant photograph from Wikimedia Commons.",
+    "mediaUrl": "",
     "sourceName": "NC State Extension: Peperomia obtusifolia",
-    "sourceUrl": "https://plants.ces.ncsu.edu/plants/peperomia-obtusifolia/"
+    "sourceUrl": "https://plants.ces.ncsu.edu/plants/peperomia-obtusifolia/",
+    "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Peperomia%20obtusifolia%203-OB9.jpg?width=1200",
+    "mediaCreditUrl": "https://commons.wikimedia.org/wiki/File%3APeperomia%20obtusifolia%203-OB9.jpg"
   }
 ]

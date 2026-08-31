@@ -14,11 +14,13 @@ function escapeHtml(value) {
 }
 
 function guidePage(plant) {
-  const imageUrl = `https://eveplants.com/assets/images/editorial/${plant.image}`;
+  const imageUrl = plant.imageUrl || `https://eveplants.com/assets/images/editorial/${plant.image}`;
   const pageUrl = `https://eveplants.com/plants/${plant.slug}.html`;
   const signals = plant.signals.map(([signal, check]) => `<tr><td>${escapeHtml(signal)}</td><td>${escapeHtml(check)}</td></tr>`).join('');
-  const mediaCredit = plant.mediaUrl ? `${escapeHtml(plant.mediaCaption)} <a href="${plant.mediaUrl}">Watch the source video ↗</a>` : escapeHtml(plant.mediaCaption);
-  const mediaSource = plant.mediaUrl ? `<li><a href="${plant.mediaUrl}">${escapeHtml(plant.mediaCaption)}</a></li>` : '';
+  const mediaLink = plant.mediaCreditUrl || plant.mediaUrl;
+  const mediaLinkLabel = plant.mediaCreditUrl ? 'View image source ↗' : 'Watch the source video ↗';
+  const mediaCredit = mediaLink ? `${escapeHtml(plant.mediaCaption)} <a href="${mediaLink}">${mediaLinkLabel}</a>` : escapeHtml(plant.mediaCaption);
+  const mediaSource = mediaLink ? `<li><a href="${mediaLink}">${escapeHtml(plant.mediaCaption)}</a></li>` : '';
   const schema = {
     '@context': 'https://schema.org',
     '@graph': [
@@ -73,7 +75,7 @@ function guidePage(plant) {
   <header class="article-hero"><div class="article-shell"><nav class="breadcrumbs" aria-label="Breadcrumb"><a href="../">Home</a> / <a href="./">Plant wiki</a> / ${escapeHtml(plant.name)}</nav><p class="page-kicker">Plant guide · ${escapeHtml(plant.botanical)}</p><h1>${escapeHtml(plant.name)} care in the Netherlands.</h1><p class="article-dek">A practical profile for Amsterdam apartments and Dutch homes, from summer window light to winter heating.</p><div class="article-byline"><span>By Eve Plants</span><time datetime="${published}">24 August 2026</time><span>${escapeHtml(plant.difficulty)} care</span></div></div></header>
   <div class="article-shell article-layout"><aside class="article-aside"><strong>In this guide</strong><ol><li><a href="#answer">Quick answer</a></li><li><a href="#care">Care at a glance</a></li><li><a href="#amsterdam">Amsterdam fit</a></li><li><a href="#winter">Dutch winter</a></li><li><a href="#problems">Read the signs</a></li><li><a href="#sources">Sources</a></li></ol></aside>
   <div class="article-body"><div class="answer-box" id="answer"><strong>Short answer</strong><p>${escapeHtml(plant.answer)}</p></div>
-  <figure class="article-media"><img src="../assets/images/editorial/${plant.image}" alt="${escapeHtml(plant.imageAlt)}" width="1200" height="675" loading="eager" decoding="async" /><figcaption>${mediaCredit}</figcaption></figure>
+  <figure class="article-media"><img src="${imageUrl}" alt="${escapeHtml(plant.imageAlt)}" width="1200" height="675" loading="eager" decoding="async" /><figcaption>${mediaCredit}</figcaption></figure>
   <h2 id="care">Care at a glance</h2><table class="care-table"><tbody><tr><th>Botanical name</th><td><em>${escapeHtml(plant.botanical)}</em></td></tr><tr><th>Light</th><td>${escapeHtml(plant.light)}</td></tr><tr><th>Water</th><td>${escapeHtml(plant.water)}</td></tr><tr><th>Soil</th><td>${escapeHtml(plant.soil)}</td></tr><tr><th>Temperature</th><td>${escapeHtml(plant.temperature)}</td></tr><tr><th>Feeding</th><td>${escapeHtml(plant.feed)}</td></tr></tbody></table>
   <h2 id="amsterdam">Does it fit an Amsterdam home?</h2><p>${escapeHtml(plant.amsterdam)}</p><p>Window direction is only the beginning. Opposite buildings, balconies, trees, privacy film and distance from the glass all change the usable light. Check the intended position at midday before buying, and remember that a spot that works in June may not work in December.</p>
   <h2>Water the root ball, not the calendar</h2><p>${escapeHtml(plant.water)} Use a nursery pot or another container with drainage holes, water the root ball evenly, and empty the cachepot afterwards. Pot size, root mass, light and room temperature determine the interval; the day of the week does not.</p><p>${escapeHtml(plant.soil)} Repot when roots and mix indicate a need rather than immediately after purchase. A much larger pot stays wet longer and can turn a simple watering error into root damage.</p>
