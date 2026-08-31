@@ -93,7 +93,9 @@ function guidePage(plant) {
 
 function card(plant, index) {
   const featured = index === 0 ? ' is-featured' : '';
-  return `<a class="editorial-card${featured}" href="${plant.slug}.html"><div class="card-meta"><span>${escapeHtml(plant.botanical)}</span><span>${escapeHtml(plant.difficulty)}</span></div><div><h2>${escapeHtml(plant.name)}</h2><p>${escapeHtml(plant.answer)}</p><span class="card-link">Open care profile <span>↗</span></span></div></a>`;
+  const imageUrl = plant.imageUrl || `https://eveplants.com/assets/images/editorial/${plant.image}`;
+  const loading = index === 0 ? 'eager' : 'lazy';
+  return `<a class="editorial-card${featured}" href="${plant.slug}.html"><div class="card-meta"><span>${escapeHtml(plant.botanical)}</span><span>${escapeHtml(plant.difficulty)}</span></div><div><div class="card-title-row"><h2>${escapeHtml(plant.name)}</h2><img class="plant-card-image" src="${imageUrl}" alt="${escapeHtml(plant.imageAlt)}" width="120" height="120" loading="${loading}" decoding="async" /></div><p>${escapeHtml(plant.answer)}</p><span class="card-link">Open care profile <span>↗</span></span></div></a>`;
 }
 
 for (const plant of plants) {

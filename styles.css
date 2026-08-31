@@ -206,6 +206,9 @@ h1 em, h2 em { color: var(--lime); font-style: italic; font-weight: 400; }
 .editorial-card:hover { transform: translateY(-5px); background: white; }
 .editorial-card .card-meta { display: flex; justify-content: space-between; gap: 14px; color: var(--muted); font-size: .64rem; letter-spacing: .11em; text-transform: uppercase; }
 .editorial-card h2, .editorial-card h3 { margin: 65px 0 16px; font-family: var(--serif); font-size: clamp(1.9rem, 3vw, 2.7rem); font-weight: 400; line-height: 1.02; letter-spacing: -.035em; }
+.card-title-row { display: grid; grid-template-columns: minmax(0, 1fr) 92px; gap: 16px; align-items: center; margin: 46px 0 14px; }
+.card-title-row h2 { margin: 0; }
+.plant-card-image { width: 92px; height: 92px; display: block; border-radius: 50% 50% 12px 12px; object-fit: cover; object-position: center; background: rgba(23,63,50,.08); }
 .editorial-card p { color: var(--muted); font-size: .8rem; }
 .card-link { display: flex; justify-content: space-between; align-items: center; margin-top: 30px; padding-top: 15px; border-top: 1px solid var(--line); font-size: .72rem; font-weight: 600; }
 .editorial-card.is-featured { grid-column: span 2; color: var(--ivory); background: var(--forest); border-color: var(--forest); }
@@ -351,6 +354,8 @@ h1 em, h2 em { color: var(--lime); font-style: italic; font-weight: 400; }
   .card-grid { grid-template-columns: 1fr; }
   .editorial-card.is-featured { grid-column: auto; }
   .editorial-card { min-height: 320px; padding: 24px; }
+  .card-title-row { grid-template-columns: minmax(0, 1fr) 76px; gap: 14px; margin-top: 36px; }
+  .plant-card-image { width: 76px; height: 76px; }
   .article-layout { padding-top: 45px; }
   .article-aside ol { grid-template-columns: 1fr; }
   .answer-box { padding: 23px; }
