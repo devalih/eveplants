@@ -1065,5 +1065,48 @@
     "sourceUrl": "https://plants.ces.ncsu.edu/plants/peperomia-obtusifolia/",
     "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Peperomia%20obtusifolia%203-OB9.jpg?width=1200",
     "mediaCreditUrl": "https://commons.wikimedia.org/wiki/File%3APeperomia%20obtusifolia%203-OB9.jpg"
+  },
+  {
+    "slug": "money-tree-care-netherlands",
+    "name": "Money tree",
+    "botanical": "Pachira aquatica",
+    "difficulty": "Easy",
+    "description": "Money tree care for Dutch homes: bright indirect light, careful watering, braided trunks, winter placement and common problems for Pachira aquatica.",
+    "answer": "Place a money tree in bright indirect light, water thoroughly once the upper part of the mix has dried, and always let excess water drain away. Keep its braided trunk warm and away from cold glass, and rotate it occasionally for even growth.",
+    "light": "Bright indirect light; gentle morning sun can work after acclimation",
+    "water": "Water thoroughly after the upper third of the mix dries, then empty excess water from the outer pot",
+    "soil": "Airy, well-draining houseplant mix in a pot with drainage holes",
+    "temperature": "Warm, stable indoor temperatures; protect from cold draughts and cold window glass",
+    "feed": "Light feeding during active spring and summer growth",
+    "amsterdam": "A money tree makes a good floor plant for a bright Amsterdam living room, especially near an east- or west-facing window with a little distance from the glass. Its braided trunk gives it height without taking much floor space, but it will become sparse in a dark corner.",
+    "season": "Dutch winter means slower drying and lower light. Move the plant closer to useful daylight, reduce watering rather than stopping it completely, and keep the roots warm by avoiding a cold floor or windowsill.",
+    "signals": [
+      [
+        "Yellowing lower leaves with wet soil",
+        "Watering too often, poor drainage or cold roots"
+      ],
+      [
+        "Crisp leaf edges or drooping with dry mix",
+        "Extended dryness, heat from a radiator or low humidity"
+      ],
+      [
+        "Long, sparse growth",
+        "Insufficient light"
+      ],
+      [
+        "Leaf drop after a move",
+        "A rapid change in light, temperature or watering pattern"
+      ]
+    ],
+    "propagation": "Take healthy stem cuttings with several nodes during active growth and root them in a warm, lightly moist medium. The braided form sold in shops is a group of young stems, so do not try to unbraid an established trunk.",
+    "safety": "Pachira aquatica is commonly listed as non-toxic to cats and dogs, but discourage chewing and confirm suitability with a veterinarian for your own animals.",
+    "image": "dutch-plant-table.webp",
+    "imageAlt": "A full indoor money tree with a braided trunk and palmate leaves",
+    "mediaCaption": "A full Pachira aquatica, commonly called a money tree, in a home interior.",
+    "mediaUrl": "",
+    "sourceName": "NC State Extension: Pachira aquatica",
+    "sourceUrl": "https://plants.ces.ncsu.edu/plants/pachira-aquatica/",
+    "imageUrl": "https://www.bristolplantman.co.uk/cdn/shop/files/FullSizeRender_7bea749d-b4eb-4296-a89d-8ffee226b0ba.jpg?v=1720721937&width=1445",
+    "mediaCreditUrl": "https://www.bristolplantman.co.uk/products/200cm-pachira-aquatica-money-tree"
   }
 ]
