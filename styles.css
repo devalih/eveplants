@@ -101,9 +101,9 @@ h1 em, h2 em { color: var(--lime); font-style: italic; font-weight: 400; }
 .service-item > a { display: grid; place-items: center; width: 42px; height: 42px; border: 1px solid rgba(255,255,255,.25); border-radius: 50%; transition: background .2s ease, color .2s ease; }
 .service-item > a:hover { color: var(--forest); background: var(--lime); }
 
-.care-story { display: grid; grid-template-columns: 1.08fr .92fr; gap: clamp(55px, 9vw, 130px); align-items: center; }
-.care-visual { position: relative; min-height: 620px; overflow: hidden; border-radius: 260px 260px 12px 12px; background: #bc8b73; }
-.care-visual video { width: 100%; height: 100%; min-height: 620px; display: block; object-fit: cover; }
+.care-story { display: grid; grid-template-columns: minmax(0, .75fr) minmax(0, 1.25fr); gap: clamp(55px, 7vw, 100px); align-items: center; }
+.care-visual { position: relative; width: min(100%, 430px); min-height: 430px; overflow: hidden; border-radius: 220px 220px 12px 12px; background: #bc8b73; }
+.care-visual video { width: 100%; height: 100%; min-height: 430px; display: block; object-fit: cover; }
 .video-note { position: absolute; right: 22px; bottom: 22px; display: flex; align-items: center; gap: 10px; padding: 9px 13px; border: 1px solid rgba(255,255,255,.5); border-radius: 999px; color: white; background: rgba(15,48,37,.45); font-size: .64rem; letter-spacing: .1em; text-transform: uppercase; backdrop-filter: blur(10px); }
 .video-note span { width: 6px; height: 6px; border-radius: 50%; background: var(--lime); box-shadow: 0 0 0 4px rgba(200,220,138,.2); }
 .care-copy h2 { margin-bottom: 28px; font-size: clamp(4.1rem, 7vw, 7.2rem); line-height: .84; }
@@ -289,7 +289,7 @@ h1 em, h2 em { color: var(--lime); font-style: italic; font-weight: 400; }
   .service-item { grid-template-columns: 42px 100px 1fr 38px; gap: 18px; padding: 30px 0; }
   .service-number { padding-top: 4px; }
   .care-story { gap: 65px; }
-  .care-visual, .care-visual video { min-height: 560px; }
+  .care-visual, .care-visual video { width: 100%; min-height: 390px; }
   .about { gap: 65px; }
   .about-image { max-width: 560px; }
   .process-top { gap: 30px; }
@@ -325,7 +325,7 @@ h1 em, h2 em { color: var(--lime); font-style: italic; font-weight: 400; }
   .intro h2, .services-heading h2 { font-size: clamp(3.3rem, 15vw, 4.7rem); }
   .service-item { grid-template-columns: 34px 1fr; }
   .service-icon, .service-item > a { display: none; }
-  .care-visual, .care-visual video { min-height: 510px; }
+  .care-visual, .care-visual video { min-height: 360px; }
   .care-copy h2, .about-copy h2 { font-size: clamp(4rem, 19vw, 5.6rem); }
   .quote-band p { font-size: clamp(2.9rem, 14vw, 4.3rem); }
   .credentials { grid-template-columns: 1fr; }
