@@ -64,6 +64,8 @@ h1 em, h2 em { color: var(--lime); font-style: italic; font-weight: 400; }
 .button-disabled:hover { transform: none; }
 .button-ivory { color: var(--forest); background: var(--ivory); }
 .button-ivory:hover { background: white; }
+.button-outline { color: var(--ivory); border: 1px solid rgba(255,255,255,.62); background: rgba(255,255,255,.06); }
+.button-outline:hover { background: rgba(255,255,255,.15); }
 .quiet-link { display: inline-flex; gap: 20px; color: rgba(255,255,255,.76); font-size: .8rem; }
 .hero-foot { position: absolute; right: 0; bottom: 40px; left: 0; display: grid; grid-template-columns: repeat(3, 1fr); max-width: 750px; padding-top: 20px; border-top: 1px solid rgba(255,255,255,.28); }
 .hero-foot p { margin: 0; color: rgba(255,255,255,.72); font-size: .7rem; letter-spacing: .04em; }
