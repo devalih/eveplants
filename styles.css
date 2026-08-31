@@ -83,7 +83,7 @@ h1 em, h2 em { color: var(--lime); font-style: italic; font-weight: 400; }
 .services .section-label { border-color: rgba(255,255,255,.18); color: rgba(255,255,255,.48); }
 .services-heading { display: grid; grid-template-columns: 1.15fr .45fr; gap: 14%; align-items: end; padding: 68px 0 74px; }
 .services-heading h2 { margin: 0; font-size: clamp(3.6rem, 6.5vw, 6.8rem); line-height: .95; }
-.services-heading p { margin: 0 0 8px; color: rgba(255,255,255,.6); font-size: .9rem; }
+.services-heading p { margin: 0 0 8px; color: rgba(255,255,255,.72); font-size: clamp(1.05rem, 1.35vw, 1.28rem); line-height: 1.55; }
 .service-list { border-top: 1px solid rgba(255,255,255,.2); }
 .service-item { display: grid; grid-template-columns: 55px 100px minmax(0, 1fr) 45px; gap: 32px; align-items: center; min-height: 200px; border-bottom: 1px solid rgba(255,255,255,.2); }
 .service-number { align-self: start; padding-top: 40px; color: var(--lime); font-size: .65rem; }
