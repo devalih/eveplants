@@ -121,7 +121,7 @@ h1 em, h2 em { color: var(--lime); font-style: italic; font-weight: 400; }
 .quote-leaf { position: absolute; top: -15%; right: -5%; width: 48vw; height: 130%; border: 1px solid rgba(255,255,255,.07); border-radius: 100% 0 100% 0; transform: rotate(16deg); }
 .quote-leaf::after { content: ""; position: absolute; bottom: 0; left: 0; width: 1px; height: 105%; background: rgba(255,255,255,.07); transform: rotate(-42deg); transform-origin: bottom; }
 
-.about { display: grid; grid-template-columns: 1fr .72fr; gap: 11%; align-items: center; }
+.about { display: grid; grid-template-columns: minmax(0, .88fr) minmax(0, 1.12fr); gap: 5%; align-items: center; }
 .about-copy h2 { margin: 60px 0 32px; font-size: clamp(4.2rem, 7vw, 7.3rem); line-height: .88; }
 .about-copy h2 em { color: var(--moss); }
 .about-copy > p { max-width: 650px; color: var(--muted); }
@@ -131,8 +131,8 @@ h1 em, h2 em { color: var(--lime); font-style: italic; font-weight: 400; }
 .credentials strong, .credentials span { display: block; }
 .credentials strong { font-family: var(--serif); font-size: 1.25rem; font-weight: 400; }
 .credentials span { color: var(--muted); font-size: .68rem; }
-.about-image { margin: 0; }
-.about-image img { width: 100%; display: block; aspect-ratio: 4 / 5; object-fit: cover; border-radius: 220px 220px 8px 8px; }
+.about-image { width: min(100%, 645px); margin: 0; justify-self: end; }
+.about-image img { width: 100%; height: auto; display: block; aspect-ratio: 4 / 5; object-fit: cover; border-radius: 220px 220px 8px 8px; }
 .about-image figcaption { margin-top: 12px; color: var(--muted); font-size: .68rem; }
 
 .process { background: #e7eadc; }
@@ -291,7 +291,7 @@ h1 em, h2 em { color: var(--lime); font-style: italic; font-weight: 400; }
   .care-story { gap: 65px; }
   .care-visual, .care-visual video { width: 100%; min-height: 390px; }
   .about { gap: 65px; }
-  .about-image { max-width: 560px; }
+  .about-image { max-width: 645px; justify-self: center; }
   .process-top { gap: 30px; }
   .process-steps { grid-template-columns: 1fr; }
   .process-steps li, .process-steps li + li { min-height: auto; padding: 28px 0 30px; border-right: 0; border-bottom: 1px solid var(--line); }
