@@ -1,6 +1,16 @@
 const menuButton = document.querySelector('[data-menu-toggle]');
 const navigation = document.querySelector('[data-nav]');
 
+document.querySelectorAll('[data-nav]').forEach((nav) => {
+  if (nav.querySelector('[data-quiz-link]')) return;
+  const quizLink = document.createElement('a');
+  quizLink.href = '/quiz/';
+  quizLink.dataset.quizLink = '';
+  quizLink.textContent = document.documentElement.lang.startsWith('nl') ? 'Plantenquiz' : 'Plant quiz';
+  const storeLink = [...nav.querySelectorAll('a')].find((link) => link.getAttribute('href')?.includes('store'));
+  nav.insertBefore(quizLink, storeLink || nav.lastElementChild);
+});
+
 function closeMenu() {
   menuButton?.setAttribute('aria-expanded', 'false');
   navigation?.classList.remove('is-open');
