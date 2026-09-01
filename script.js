@@ -11,6 +11,16 @@ document.querySelectorAll('[data-nav]').forEach((nav) => {
   nav.insertBefore(quizLink, storeLink || nav.lastElementChild);
 });
 
+document.querySelectorAll('[data-nav]').forEach((nav) => {
+  if (nav.querySelector('[data-offer-link]')) return;
+  const offerLink = document.createElement('a');
+  offerLink.href = '/offer/';
+  offerLink.dataset.offerLink = '';
+  offerLink.textContent = document.documentElement.lang.startsWith('nl') ? 'Openingsaanbod' : 'Opening offer';
+  const storeLink = [...nav.querySelectorAll('a')].find((link) => link.getAttribute('href')?.includes('store'));
+  nav.insertBefore(offerLink, storeLink || nav.lastElementChild);
+});
+
 function closeMenu() {
   menuButton?.setAttribute('aria-expanded', 'false');
   navigation?.classList.remove('is-open');

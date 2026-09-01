@@ -259,6 +259,42 @@ h1 em, h2 em { color: var(--lime); font-style: italic; font-weight: 400; }
 .quiz-result-card p { margin: 0; color: var(--muted); font-size: .82rem; }
 .quiz-result-card .text-arrow { margin-top: auto; padding-top: 25px; }
 .quiz-results-actions { display: flex; align-items: center; gap: 30px; margin-top: 35px; }
+
+/* Opening offer */
+.offer-hero { padding: clamp(88px, 11vw, 150px) 0 clamp(70px, 9vw, 120px); color: var(--ivory); background: var(--forest); }
+.offer-hero-grid { display: grid; grid-template-columns: minmax(0, 1fr) 240px; gap: 12%; align-items: center; }
+.offer-hero .page-kicker { color: var(--lime); }
+.offer-hero h1 { max-width: 820px; margin: 0 0 28px; color: var(--ivory); font-size: clamp(4.3rem, 9vw, 8.5rem); }
+.offer-lead { max-width: 540px; margin: 0 0 35px; color: rgba(255,255,255,.74); font-size: clamp(1.05rem, 1.5vw, 1.25rem); }
+.offer-stamp { width: 220px; height: 220px; display: flex; flex-direction: column; align-items: center; justify-content: center; border: 1px solid var(--lime); border-radius: 50%; color: var(--forest); background: var(--lime); transform: rotate(7deg); }
+.offer-stamp span, .offer-stamp small { font-size: .62rem; font-weight: 700; letter-spacing: .18em; line-height: 1.25; text-align: center; text-transform: uppercase; }
+.offer-stamp strong { margin: -3px 0; font-family: var(--serif); font-size: 6rem; font-weight: 400; line-height: .9; letter-spacing: -.08em; }
+.offer-content { padding-block: clamp(75px, 10vw, 145px); }
+.offer-intro { display: grid; grid-template-columns: minmax(0, 1.1fr) minmax(250px, .45fr); gap: 10%; align-items: end; margin-bottom: 75px; }
+.offer-intro h2 { margin: 0; font-size: clamp(3.2rem, 5.8vw, 6rem); line-height: .94; }
+.offer-intro > p:last-child { margin: 0; color: var(--muted); font-size: .98rem; }
+.offer-columns { display: grid; grid-template-columns: repeat(3, 1fr); gap: 18px; }
+.offer-columns article { min-height: 280px; padding: 27px; border-top: 2px solid var(--forest); background: rgba(255,255,255,.45); }
+.offer-number { color: var(--clay); font-size: .66rem; font-weight: 600; letter-spacing: .14em; }
+.offer-columns h3 { margin: 45px 0 15px; font-family: var(--serif); font-size: 2rem; font-weight: 400; line-height: 1; }
+.offer-columns p, .offer-columns li { color: var(--muted); font-size: .82rem; }
+.offer-columns ul { margin: 0; padding-left: 18px; }
+.offer-columns li + li { margin-top: 9px; }
+.offer-process { padding-block: clamp(75px, 10vw, 135px); color: var(--ivory); background: var(--forest-deep); }
+.offer-process-grid { display: grid; grid-template-columns: minmax(0, .9fr) minmax(0, 1fr); gap: 14%; }
+.offer-process h2 { margin: 0; color: var(--ivory); font-size: clamp(3.2rem, 5.8vw, 6rem); line-height: .94; }
+.offer-process ol { margin: 0; padding: 0; list-style: none; }
+.offer-process li { display: grid; grid-template-columns: 42px 1fr; gap: 19px; padding: 0 0 25px; border-bottom: 1px solid rgba(255,255,255,.18); }
+.offer-process li + li { padding-top: 25px; }
+.offer-process li > span { color: var(--lime); font-size: .66rem; font-weight: 600; letter-spacing: .12em; }
+.offer-process strong { font-family: var(--serif); font-size: 1.7rem; font-weight: 400; }
+.offer-process p { margin: 5px 0 0; color: rgba(255,255,255,.58); font-size: .82rem; }
+.offer-booking { padding-block: clamp(70px, 9vw, 120px); }
+.offer-booking-card { max-width: 760px; padding: clamp(30px, 6vw, 70px); color: var(--ivory); background: var(--clay); }
+.offer-booking-card h2 { margin: 0 0 25px; color: var(--ivory); font-size: clamp(3.5rem, 7vw, 7rem); line-height: .88; }
+.offer-booking-card > p:not(.overline) { max-width: 470px; color: rgba(255,255,255,.82); }
+.offer-booking-card .button-forest { margin-top: 12px; color: var(--ivory); background: var(--forest); }
+.offer-booking-card small { display: block; max-width: 450px; margin-top: 22px; color: rgba(255,255,255,.68); font-size: .7rem; }
 .wiki-note-grid { display: grid; grid-template-columns: .75fr 1fr; gap: 10%; }
 .wiki-note h2 { margin: 0; font-size: clamp(3.2rem, 5vw, 5.5rem); line-height: .93; }
 .wiki-note div p { color: rgba(255,255,255,.62); }
@@ -356,6 +392,9 @@ h1 em, h2 em { color: var(--lime); font-style: italic; font-weight: 400; }
   .quiz-hero-grid, .quiz-intro { grid-template-columns: 1fr; gap: 30px; }
   .quiz-result-grid { grid-template-columns: 1fr; }
   .quiz-result-card { min-height: 230px; }
+  .offer-hero-grid, .offer-intro, .offer-process-grid { grid-template-columns: 1fr; gap: 45px; }
+  .offer-stamp { justify-self: start; }
+  .offer-columns { grid-template-columns: 1fr; }
   .card-grid { grid-template-columns: repeat(2, minmax(0, 1fr)); }
   .article-layout { grid-template-columns: 1fr; }
   .article-aside { position: static; }
@@ -394,6 +433,9 @@ h1 em, h2 em { color: var(--lime); font-style: italic; font-weight: 400; }
   .page-hero h1, .article-hero h1 { font-size: clamp(3.7rem, 17vw, 5.4rem); }
   .quiz-hero { padding-top: 70px; }
   .quiz-hero h1 { font-size: clamp(3.7rem, 17vw, 5.4rem); }
+  .offer-hero h1 { font-size: clamp(3.7rem, 17vw, 5.4rem); }
+  .offer-stamp { width: 180px; height: 180px; }
+  .offer-stamp strong { font-size: 5rem; }
   .plant-quiz { padding: 24px 18px; }
   .quiz-question { min-height: 320px; }
   .quiz-question legend { font-size: clamp(2rem, 10vw, 2.8rem); }
